@@ -1,0 +1,2818 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e2d2d547cff94006a2ede68f2e7b3aa7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e2d2d547cff94006a2ede68f2e7b3aa7" ></div>
+        
+</body>
+<script>    
+    
+            var map_e2d2d547cff94006a2ede68f2e7b3aa7 = L.map(
+                "map_e2d2d547cff94006a2ede68f2e7b3aa7",
+                {
+                    center: [43.653963, -79.387207],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0c8a9d109d0b4304aa638f3443385648 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+            var circle_marker_856d8831347f4f3b88664e252ff6ae58 = L.circleMarker(
+                [43.7532586, -79.3296565],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_6cbbb9773db14d11a2cf96d7f89ea35d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_159e03e7e7fd486f86ff62f7c50ed2c9 = $(`<div id="html_159e03e7e7fd486f86ff62f7c50ed2c9" style="width: 100.0%; height: 100.0%;">Parkwoods,Caribbean Restaurant</div>`)[0];
+            popup_6cbbb9773db14d11a2cf96d7f89ea35d.setContent(html_159e03e7e7fd486f86ff62f7c50ed2c9);
+        
+
+        circle_marker_856d8831347f4f3b88664e252ff6ae58.bindPopup(popup_6cbbb9773db14d11a2cf96d7f89ea35d)
+        ;
+
+        
+    
+    
+            var circle_marker_7136817a35564195b2e26231e9c4fd14 = L.circleMarker(
+                [43.725882299999995, -79.31557159999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_b833b7097e5248ac91f670ce9cc86a69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81ae0b04564f45f4a4769692fd2f9b9e = $(`<div id="html_81ae0b04564f45f4a4769692fd2f9b9e" style="width: 100.0%; height: 100.0%;">Victoria Village,Middle Eastern Restaurant</div>`)[0];
+            popup_b833b7097e5248ac91f670ce9cc86a69.setContent(html_81ae0b04564f45f4a4769692fd2f9b9e);
+        
+
+        circle_marker_7136817a35564195b2e26231e9c4fd14.bindPopup(popup_b833b7097e5248ac91f670ce9cc86a69)
+        ;
+
+        
+    
+    
+            var circle_marker_398c2ac69dc74ca4b7f31995e84e3a1b = L.circleMarker(
+                [43.725882299999995, -79.31557159999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_c87d8772b2b54c5388709cc3656cb441 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b0d1545d285481fb00822ce4bde1c4e = $(`<div id="html_2b0d1545d285481fb00822ce4bde1c4e" style="width: 100.0%; height: 100.0%;">Victoria Village,Indian Restaurant</div>`)[0];
+            popup_c87d8772b2b54c5388709cc3656cb441.setContent(html_2b0d1545d285481fb00822ce4bde1c4e);
+        
+
+        circle_marker_398c2ac69dc74ca4b7f31995e84e3a1b.bindPopup(popup_c87d8772b2b54c5388709cc3656cb441)
+        ;
+
+        
+    
+    
+            var circle_marker_6c499a3589214717886fb9bae456a526 = L.circleMarker(
+                [43.725882299999995, -79.31557159999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_4707265d3d244eb2a3437f99ee22acf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad97c915c741424da3837a00504b54af = $(`<div id="html_ad97c915c741424da3837a00504b54af" style="width: 100.0%; height: 100.0%;">Victoria Village,Thai Restaurant</div>`)[0];
+            popup_4707265d3d244eb2a3437f99ee22acf0.setContent(html_ad97c915c741424da3837a00504b54af);
+        
+
+        circle_marker_6c499a3589214717886fb9bae456a526.bindPopup(popup_4707265d3d244eb2a3437f99ee22acf0)
+        ;
+
+        
+    
+    
+            var circle_marker_67d0e97e630d4b74bc260bf9caf3c8ce = L.circleMarker(
+                [43.718517999999996, -79.46476329999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_3ec6cf1b5d5842f4956b79a80285597e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb94bb402c2e4cdab0d85d17f4e53493 = $(`<div id="html_eb94bb402c2e4cdab0d85d17f4e53493" style="width: 100.0%; height: 100.0%;">Lawrence Heights,Lawrence Manor,Vietnamese Restaurant</div>`)[0];
+            popup_3ec6cf1b5d5842f4956b79a80285597e.setContent(html_eb94bb402c2e4cdab0d85d17f4e53493);
+        
+
+        circle_marker_67d0e97e630d4b74bc260bf9caf3c8ce.bindPopup(popup_3ec6cf1b5d5842f4956b79a80285597e)
+        ;
+
+        
+    
+    
+            var circle_marker_9640b51086f24097b1b2a68b40038562 = L.circleMarker(
+                [43.718517999999996, -79.46476329999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_a0eb9d2071b14a7e9cedb54acd444e6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dc163593d2141d881d8e9f40ee425f1 = $(`<div id="html_1dc163593d2141d881d8e9f40ee425f1" style="width: 100.0%; height: 100.0%;">Lawrence Heights,Lawrence Manor,Greek Restaurant</div>`)[0];
+            popup_a0eb9d2071b14a7e9cedb54acd444e6f.setContent(html_1dc163593d2141d881d8e9f40ee425f1);
+        
+
+        circle_marker_9640b51086f24097b1b2a68b40038562.bindPopup(popup_a0eb9d2071b14a7e9cedb54acd444e6f)
+        ;
+
+        
+    
+    
+            var circle_marker_461327f5d2b046099d13e36458a8ff12 = L.circleMarker(
+                [43.6623015, -79.3894938],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_de398a16739a4fbfb0900cf7e9b18d2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e716b7456c45441fa4db40bc9211869a = $(`<div id="html_e716b7456c45441fa4db40bc9211869a" style="width: 100.0%; height: 100.0%;">Not assigned,Italian Restaurant</div>`)[0];
+            popup_de398a16739a4fbfb0900cf7e9b18d2e.setContent(html_e716b7456c45441fa4db40bc9211869a);
+        
+
+        circle_marker_461327f5d2b046099d13e36458a8ff12.bindPopup(popup_de398a16739a4fbfb0900cf7e9b18d2e)
+        ;
+
+        
+    
+    
+            var circle_marker_a1ec9647cce54d1888d7eed6b3ed226c = L.circleMarker(
+                [43.6623015, -79.3894938],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_dfe482f9d712472580835e639081c815 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f7b2060fdf04df0b56ec41d5c80df94 = $(`<div id="html_3f7b2060fdf04df0b56ec41d5c80df94" style="width: 100.0%; height: 100.0%;">Not assigned,Portuguese Restaurant</div>`)[0];
+            popup_dfe482f9d712472580835e639081c815.setContent(html_3f7b2060fdf04df0b56ec41d5c80df94);
+        
+
+        circle_marker_a1ec9647cce54d1888d7eed6b3ed226c.bindPopup(popup_dfe482f9d712472580835e639081c815)
+        ;
+
+        
+    
+    
+            var circle_marker_2ff5c2256bae42d480a3e6e8ea0f3f5b = L.circleMarker(
+                [43.745905799999996, -79.352188],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_408c304640f846b691f22b6a416a1f23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_311cc0ef1f5245f3912948f7f6ad747a = $(`<div id="html_311cc0ef1f5245f3912948f7f6ad747a" style="width: 100.0%; height: 100.0%;">Don Mills North,Caribbean Restaurant</div>`)[0];
+            popup_408c304640f846b691f22b6a416a1f23.setContent(html_311cc0ef1f5245f3912948f7f6ad747a);
+        
+
+        circle_marker_2ff5c2256bae42d480a3e6e8ea0f3f5b.bindPopup(popup_408c304640f846b691f22b6a416a1f23)
+        ;
+
+        
+    
+    
+            var circle_marker_d9599bfae29849c29ffba246f8234c0d = L.circleMarker(
+                [43.745905799999996, -79.352188],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_480b6dcea6c149979e41918571eb1803 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4da723c051940b09c4716d9f541a44f = $(`<div id="html_e4da723c051940b09c4716d9f541a44f" style="width: 100.0%; height: 100.0%;">Don Mills North,Italian Restaurant</div>`)[0];
+            popup_480b6dcea6c149979e41918571eb1803.setContent(html_e4da723c051940b09c4716d9f541a44f);
+        
+
+        circle_marker_d9599bfae29849c29ffba246f8234c0d.bindPopup(popup_480b6dcea6c149979e41918571eb1803)
+        ;
+
+        
+    
+    
+            var circle_marker_a6b001cc59e24a9da97922445ca8d313 = L.circleMarker(
+                [43.745905799999996, -79.352188],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_8c5053a356754b9692375e0eecf6fac8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3b66bf306d94280ac3487ff11be6706 = $(`<div id="html_a3b66bf306d94280ac3487ff11be6706" style="width: 100.0%; height: 100.0%;">Don Mills North,Japanese Restaurant</div>`)[0];
+            popup_8c5053a356754b9692375e0eecf6fac8.setContent(html_a3b66bf306d94280ac3487ff11be6706);
+        
+
+        circle_marker_a6b001cc59e24a9da97922445ca8d313.bindPopup(popup_8c5053a356754b9692375e0eecf6fac8)
+        ;
+
+        
+    
+    
+            var circle_marker_df00aa63cb3947beb6afa6a56893ec31 = L.circleMarker(
+                [43.709577, -79.44507259999997],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_2159e2889ed443f2a2a8a414875f8af7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47d58a319f7b4694b44dbbd26d0a69b5 = $(`<div id="html_47d58a319f7b4694b44dbbd26d0a69b5" style="width: 100.0%; height: 100.0%;">Glencairn,Fast Food Restaurant</div>`)[0];
+            popup_2159e2889ed443f2a2a8a414875f8af7.setContent(html_47d58a319f7b4694b44dbbd26d0a69b5);
+        
+
+        circle_marker_df00aa63cb3947beb6afa6a56893ec31.bindPopup(popup_2159e2889ed443f2a2a8a414875f8af7)
+        ;
+
+        
+    
+    
+            var circle_marker_58899c044f6e46eb8117d0d134a4c3d1 = L.circleMarker(
+                [43.709577, -79.44507259999997],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_dc4c5c63f7b24b5097f7dc98e7903cd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7372e1cd7664821bd5d78d720e39fbe = $(`<div id="html_b7372e1cd7664821bd5d78d720e39fbe" style="width: 100.0%; height: 100.0%;">Glencairn,Japanese Restaurant</div>`)[0];
+            popup_dc4c5c63f7b24b5097f7dc98e7903cd7.setContent(html_b7372e1cd7664821bd5d78d720e39fbe);
+        
+
+        circle_marker_58899c044f6e46eb8117d0d134a4c3d1.bindPopup(popup_dc4c5c63f7b24b5097f7dc98e7903cd7)
+        ;
+
+        
+    
+    
+            var circle_marker_3cf0bc264184410b9168896a89aac4f1 = L.circleMarker(
+                [43.709577, -79.44507259999997],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_11d9d6157cd8465e83fa85d248cdcf04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88a5bd42a06a49ce9b47d639e3dea934 = $(`<div id="html_88a5bd42a06a49ce9b47d639e3dea934" style="width: 100.0%; height: 100.0%;">Glencairn,Caribbean Restaurant</div>`)[0];
+            popup_11d9d6157cd8465e83fa85d248cdcf04.setContent(html_88a5bd42a06a49ce9b47d639e3dea934);
+        
+
+        circle_marker_3cf0bc264184410b9168896a89aac4f1.bindPopup(popup_11d9d6157cd8465e83fa85d248cdcf04)
+        ;
+
+        
+    
+    
+            var circle_marker_039c1f3c502d487c8bc06b3c928cce5e = L.circleMarker(
+                [43.7845351, -79.16049709999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_ce14af3627034723bd2d89f039b1026d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad24b7eac464481ebec8c7fda872cc92 = $(`<div id="html_ad24b7eac464481ebec8c7fda872cc92" style="width: 100.0%; height: 100.0%;">Highland Creek,Rouge Hill,Port Union,Italian Restaurant</div>`)[0];
+            popup_ce14af3627034723bd2d89f039b1026d.setContent(html_ad24b7eac464481ebec8c7fda872cc92);
+        
+
+        circle_marker_039c1f3c502d487c8bc06b3c928cce5e.bindPopup(popup_ce14af3627034723bd2d89f039b1026d)
+        ;
+
+        
+    
+    
+            var circle_marker_b192fe91d98947af900bd61754b76f31 = L.circleMarker(
+                [43.72589970000001, -79.340923],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_88dc7f71958e4fda955f60757ad6f45f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11b7c2c69bf64ea7866c38006a6e8cc9 = $(`<div id="html_11b7c2c69bf64ea7866c38006a6e8cc9" style="width: 100.0%; height: 100.0%;">Flemingdon Park,Don Mills South,Italian Restaurant</div>`)[0];
+            popup_88dc7f71958e4fda955f60757ad6f45f.setContent(html_11b7c2c69bf64ea7866c38006a6e8cc9);
+        
+
+        circle_marker_b192fe91d98947af900bd61754b76f31.bindPopup(popup_88dc7f71958e4fda955f60757ad6f45f)
+        ;
+
+        
+    
+    
+            var circle_marker_8096b22a2944410d911a553ce6b46bd6 = L.circleMarker(
+                [43.72589970000001, -79.340923],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_c16209532b5747c181955bf6dabe3e5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ccabc1e1cf44c4b8421c6485d7ddd42 = $(`<div id="html_6ccabc1e1cf44c4b8421c6485d7ddd42" style="width: 100.0%; height: 100.0%;">Flemingdon Park,Don Mills South,Middle Eastern Restaurant</div>`)[0];
+            popup_c16209532b5747c181955bf6dabe3e5f.setContent(html_6ccabc1e1cf44c4b8421c6485d7ddd42);
+        
+
+        circle_marker_8096b22a2944410d911a553ce6b46bd6.bindPopup(popup_c16209532b5747c181955bf6dabe3e5f)
+        ;
+
+        
+    
+    
+            var circle_marker_a4c1443bd1ec46eebe1fe99d7d022e9f = L.circleMarker(
+                [43.6514939, -79.3754179],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_93ae073f18974091b68bcdf56031aa76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff3e2abedd1e46c5bf1f892128770160 = $(`<div id="html_ff3e2abedd1e46c5bf1f892128770160" style="width: 100.0%; height: 100.0%;">St. James Town,Japanese Restaurant</div>`)[0];
+            popup_93ae073f18974091b68bcdf56031aa76.setContent(html_ff3e2abedd1e46c5bf1f892128770160);
+        
+
+        circle_marker_a4c1443bd1ec46eebe1fe99d7d022e9f.bindPopup(popup_93ae073f18974091b68bcdf56031aa76)
+        ;
+
+        
+    
+    
+            var circle_marker_d18c30b4d75542d8addbb41273f70d6d = L.circleMarker(
+                [43.6514939, -79.3754179],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_16b8a135ed3f4ebca9aefff9c04e21cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd4851a59de747169bc218d19670fb14 = $(`<div id="html_fd4851a59de747169bc218d19670fb14" style="width: 100.0%; height: 100.0%;">St. James Town,Restaurant</div>`)[0];
+            popup_16b8a135ed3f4ebca9aefff9c04e21cc.setContent(html_fd4851a59de747169bc218d19670fb14);
+        
+
+        circle_marker_d18c30b4d75542d8addbb41273f70d6d.bindPopup(popup_16b8a135ed3f4ebca9aefff9c04e21cc)
+        ;
+
+        
+    
+    
+            var circle_marker_e330010a8f3249bc9b2a9772be5285b3 = L.circleMarker(
+                [43.6937813, -79.42819140000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_cf9a2e1653fc46c1b81831157e2d1280 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cce3612e9a1945f290b717418d0889a3 = $(`<div id="html_cce3612e9a1945f290b717418d0889a3" style="width: 100.0%; height: 100.0%;">Humewood-Cedarvale,Middle Eastern Restaurant</div>`)[0];
+            popup_cf9a2e1653fc46c1b81831157e2d1280.setContent(html_cce3612e9a1945f290b717418d0889a3);
+        
+
+        circle_marker_e330010a8f3249bc9b2a9772be5285b3.bindPopup(popup_cf9a2e1653fc46c1b81831157e2d1280)
+        ;
+
+        
+    
+    
+            var circle_marker_c6d7c54b8ad4479fbbac93f3f4089654 = L.circleMarker(
+                [43.6937813, -79.42819140000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_e2f9160f8adc4353a618ac23fc6ad824 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9fecf7eb45a4a0099a5c7bbed1cf778 = $(`<div id="html_b9fecf7eb45a4a0099a5c7bbed1cf778" style="width: 100.0%; height: 100.0%;">Humewood-Cedarvale,Indian Restaurant</div>`)[0];
+            popup_e2f9160f8adc4353a618ac23fc6ad824.setContent(html_b9fecf7eb45a4a0099a5c7bbed1cf778);
+        
+
+        circle_marker_c6d7c54b8ad4479fbbac93f3f4089654.bindPopup(popup_e2f9160f8adc4353a618ac23fc6ad824)
+        ;
+
+        
+    
+    
+            var circle_marker_2ad630b764ae4d6c9865cf78baeff20f = L.circleMarker(
+                [43.67635739999999, -79.2930312],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_948cd69933414bf8ac3c2a89108398e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d097b8d1d4164c29a9a3970a42c563ed = $(`<div id="html_d097b8d1d4164c29a9a3970a42c563ed" style="width: 100.0%; height: 100.0%;">The Beaches,Vegetarian / Vegan Restaurant</div>`)[0];
+            popup_948cd69933414bf8ac3c2a89108398e6.setContent(html_d097b8d1d4164c29a9a3970a42c563ed);
+        
+
+        circle_marker_2ad630b764ae4d6c9865cf78baeff20f.bindPopup(popup_948cd69933414bf8ac3c2a89108398e6)
+        ;
+
+        
+    
+    
+            var circle_marker_8f4372e8c870433f8c65a3971a1c2801 = L.circleMarker(
+                [43.644770799999996, -79.3733064],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_ed1e502c45764a3d99730e401a74fc5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_396f3a53fa734ea2b4a50bccdba804d5 = $(`<div id="html_396f3a53fa734ea2b4a50bccdba804d5" style="width: 100.0%; height: 100.0%;">Berczy Park,Vegetarian / Vegan Restaurant</div>`)[0];
+            popup_ed1e502c45764a3d99730e401a74fc5f.setContent(html_396f3a53fa734ea2b4a50bccdba804d5);
+        
+
+        circle_marker_8f4372e8c870433f8c65a3971a1c2801.bindPopup(popup_ed1e502c45764a3d99730e401a74fc5f)
+        ;
+
+        
+    
+    
+            var circle_marker_aed9d35069a0489aad7197ba219a7353 = L.circleMarker(
+                [43.6890256, -79.453512],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_325f36b972c64cb9a9ac90ebd7512896 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27e460438edb4d04a4c0115ae9a846e3 = $(`<div id="html_27e460438edb4d04a4c0115ae9a846e3" style="width: 100.0%; height: 100.0%;">Caledonia-Fairbanks,Japanese Restaurant</div>`)[0];
+            popup_325f36b972c64cb9a9ac90ebd7512896.setContent(html_27e460438edb4d04a4c0115ae9a846e3);
+        
+
+        circle_marker_aed9d35069a0489aad7197ba219a7353.bindPopup(popup_325f36b972c64cb9a9ac90ebd7512896)
+        ;
+
+        
+    
+    
+            var circle_marker_9c11be2bdc84487a99e7da2ed08b73db = L.circleMarker(
+                [43.6890256, -79.453512],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_0f3d4a11125444da95aad0df3e3c7a3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12f71515c2564727b2c7d6765d0d4f2b = $(`<div id="html_12f71515c2564727b2c7d6765d0d4f2b" style="width: 100.0%; height: 100.0%;">Caledonia-Fairbanks,Falafel Restaurant</div>`)[0];
+            popup_0f3d4a11125444da95aad0df3e3c7a3a.setContent(html_12f71515c2564727b2c7d6765d0d4f2b);
+        
+
+        circle_marker_9c11be2bdc84487a99e7da2ed08b73db.bindPopup(popup_0f3d4a11125444da95aad0df3e3c7a3a)
+        ;
+
+        
+    
+    
+            var circle_marker_aedf0b4afb214ec2870e02e2a1d35432 = L.circleMarker(
+                [43.669542, -79.4225637],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_ea0a141f32284a6f933e57bf483983e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd09a7ae14e84a4699c1313424e98bb4 = $(`<div id="html_bd09a7ae14e84a4699c1313424e98bb4" style="width: 100.0%; height: 100.0%;">Christie,Indian Restaurant</div>`)[0];
+            popup_ea0a141f32284a6f933e57bf483983e5.setContent(html_bd09a7ae14e84a4699c1313424e98bb4);
+        
+
+        circle_marker_aedf0b4afb214ec2870e02e2a1d35432.bindPopup(popup_ea0a141f32284a6f933e57bf483983e5)
+        ;
+
+        
+    
+    
+            var circle_marker_cd18819b62664672a1e2919d4e5e7088 = L.circleMarker(
+                [43.773136, -79.23947609999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_58192ea0772445babc9389a186324bfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08bf8513092743a5af06422703f3f422 = $(`<div id="html_08bf8513092743a5af06422703f3f422" style="width: 100.0%; height: 100.0%;">Cedarbrae,Indian Restaurant</div>`)[0];
+            popup_58192ea0772445babc9389a186324bfc.setContent(html_08bf8513092743a5af06422703f3f422);
+        
+
+        circle_marker_cd18819b62664672a1e2919d4e5e7088.bindPopup(popup_58192ea0772445babc9389a186324bfc)
+        ;
+
+        
+    
+    
+            var circle_marker_a637f0a264b44f4fa6a3972ca559c409 = L.circleMarker(
+                [43.773136, -79.23947609999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_fb0ba8c6249e4776aacb929e9a9d67bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5e2072442d24165af2a80d83df10e57 = $(`<div id="html_f5e2072442d24165af2a80d83df10e57" style="width: 100.0%; height: 100.0%;">Cedarbrae,Hakka Restaurant</div>`)[0];
+            popup_fb0ba8c6249e4776aacb929e9a9d67bc.setContent(html_f5e2072442d24165af2a80d83df10e57);
+        
+
+        circle_marker_a637f0a264b44f4fa6a3972ca559c409.bindPopup(popup_fb0ba8c6249e4776aacb929e9a9d67bc)
+        ;
+
+        
+    
+    
+            var circle_marker_ff9822c446af478b899f5fd86596d080 = L.circleMarker(
+                [43.773136, -79.23947609999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_32d237a1b93b4abc951102ba9c7a42af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cedfeedac5346a98e4b1a92d312fc8a = $(`<div id="html_5cedfeedac5346a98e4b1a92d312fc8a" style="width: 100.0%; height: 100.0%;">Cedarbrae,Caribbean Restaurant</div>`)[0];
+            popup_32d237a1b93b4abc951102ba9c7a42af.setContent(html_5cedfeedac5346a98e4b1a92d312fc8a);
+        
+
+        circle_marker_ff9822c446af478b899f5fd86596d080.bindPopup(popup_32d237a1b93b4abc951102ba9c7a42af)
+        ;
+
+        
+    
+    
+            var circle_marker_e4fe5eb4ec4f49c2bf260806d4b2a347 = L.circleMarker(
+                [43.8037622, -79.3634517],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_ebd3d0c1856c472b8e1e238c0f4571d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_749321b806224c698d6a432058d5da76 = $(`<div id="html_749321b806224c698d6a432058d5da76" style="width: 100.0%; height: 100.0%;">Hillcrest Village,Korean Restaurant</div>`)[0];
+            popup_ebd3d0c1856c472b8e1e238c0f4571d2.setContent(html_749321b806224c698d6a432058d5da76);
+        
+
+        circle_marker_e4fe5eb4ec4f49c2bf260806d4b2a347.bindPopup(popup_ebd3d0c1856c472b8e1e238c0f4571d2)
+        ;
+
+        
+    
+    
+            var circle_marker_1da1a0107d4b4617b163c96fc198f9d1 = L.circleMarker(
+                [43.7543283, -79.4422593],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_33e2071b76784224922133b3abf5271a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_897c244d0fcb4ae79e591e521aa02c99 = $(`<div id="html_897c244d0fcb4ae79e591e521aa02c99" style="width: 100.0%; height: 100.0%;">Bathurst Manor,Downsview North,Wilson Heights,Restaurant</div>`)[0];
+            popup_33e2071b76784224922133b3abf5271a.setContent(html_897c244d0fcb4ae79e591e521aa02c99);
+        
+
+        circle_marker_1da1a0107d4b4617b163c96fc198f9d1.bindPopup(popup_33e2071b76784224922133b3abf5271a)
+        ;
+
+        
+    
+    
+            var circle_marker_a8dafb10d3434cbe9339829eca66d928 = L.circleMarker(
+                [43.7053689, -79.34937190000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_1c8da3fce80f4f2cb7a5829b4f38a239 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86eac87f5e6f4677aba49c83722ed7f0 = $(`<div id="html_86eac87f5e6f4677aba49c83722ed7f0" style="width: 100.0%; height: 100.0%;">Thorncliffe Park,Indian Restaurant</div>`)[0];
+            popup_1c8da3fce80f4f2cb7a5829b4f38a239.setContent(html_86eac87f5e6f4677aba49c83722ed7f0);
+        
+
+        circle_marker_a8dafb10d3434cbe9339829eca66d928.bindPopup(popup_1c8da3fce80f4f2cb7a5829b4f38a239)
+        ;
+
+        
+    
+    
+            var circle_marker_ad9f1ef863e64c5cb25f030f443704d9 = L.circleMarker(
+                [43.7053689, -79.34937190000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_2f855361f27642f5a57d0701b3fe48d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6aa0b3e2d8b44740957ed3f3f1afaf20 = $(`<div id="html_6aa0b3e2d8b44740957ed3f3f1afaf20" style="width: 100.0%; height: 100.0%;">Thorncliffe Park,Afghan Restaurant</div>`)[0];
+            popup_2f855361f27642f5a57d0701b3fe48d5.setContent(html_6aa0b3e2d8b44740957ed3f3f1afaf20);
+        
+
+        circle_marker_ad9f1ef863e64c5cb25f030f443704d9.bindPopup(popup_2f855361f27642f5a57d0701b3fe48d5)
+        ;
+
+        
+    
+    
+            var circle_marker_19a6fe32e3e0416b93881b41ae45a96b = L.circleMarker(
+                [43.66900510000001, -79.4422593],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_58233f752bc04104813b87eb4b2224c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b1c3236a0f245daaf2601cad4ccc275 = $(`<div id="html_4b1c3236a0f245daaf2601cad4ccc275" style="width: 100.0%; height: 100.0%;">Dovercourt Village,Dufferin,Middle Eastern Restaurant</div>`)[0];
+            popup_58233f752bc04104813b87eb4b2224c3.setContent(html_4b1c3236a0f245daaf2601cad4ccc275);
+        
+
+        circle_marker_19a6fe32e3e0416b93881b41ae45a96b.bindPopup(popup_58233f752bc04104813b87eb4b2224c3)
+        ;
+
+        
+    
+    
+            var circle_marker_5e23f61c616b4add97c430dcf0dd39df = L.circleMarker(
+                [43.7447342, -79.23947609999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_73b853e21ed4471f9b43e76bfa2d1b14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab2410360a9c4af88b9562e72af62941 = $(`<div id="html_ab2410360a9c4af88b9562e72af62941" style="width: 100.0%; height: 100.0%;">Scarborough Village,Indian Restaurant</div>`)[0];
+            popup_73b853e21ed4471f9b43e76bfa2d1b14.setContent(html_ab2410360a9c4af88b9562e72af62941);
+        
+
+        circle_marker_5e23f61c616b4add97c430dcf0dd39df.bindPopup(popup_73b853e21ed4471f9b43e76bfa2d1b14)
+        ;
+
+        
+    
+    
+            var circle_marker_0b24fd69f6cf44fb8b96bfb57e6dfaac = L.circleMarker(
+                [43.7447342, -79.23947609999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_1b9cbae978bc48ddbf55230e9f05635f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6ce868085e94e9a9b2a05ba0eae4209 = $(`<div id="html_d6ce868085e94e9a9b2a05ba0eae4209" style="width: 100.0%; height: 100.0%;">Scarborough Village,Chinese Restaurant</div>`)[0];
+            popup_1b9cbae978bc48ddbf55230e9f05635f.setContent(html_d6ce868085e94e9a9b2a05ba0eae4209);
+        
+
+        circle_marker_0b24fd69f6cf44fb8b96bfb57e6dfaac.bindPopup(popup_1b9cbae978bc48ddbf55230e9f05635f)
+        ;
+
+        
+    
+    
+            var circle_marker_f845b05750b04eaea88806fe6473c788 = L.circleMarker(
+                [43.7785175, -79.3465557],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_034d54dd79c74abfb35a415460edc3e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ec30ef27a7d46048ab011df1dc50eac = $(`<div id="html_9ec30ef27a7d46048ab011df1dc50eac" style="width: 100.0%; height: 100.0%;">Fairview,Henry Farm,Oriole,American Restaurant</div>`)[0];
+            popup_034d54dd79c74abfb35a415460edc3e9.setContent(html_9ec30ef27a7d46048ab011df1dc50eac);
+        
+
+        circle_marker_f845b05750b04eaea88806fe6473c788.bindPopup(popup_034d54dd79c74abfb35a415460edc3e9)
+        ;
+
+        
+    
+    
+            var circle_marker_76a367a4bc3940d98de6145df089148d = L.circleMarker(
+                [43.7679803, -79.48726190000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_d915c3c620f245dc9e297ea1beaa9e7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7aba208732b443c6ba0fa2897aba2a2a = $(`<div id="html_7aba208732b443c6ba0fa2897aba2a2a" style="width: 100.0%; height: 100.0%;">Northwood Park,York University,Middle Eastern Restaurant</div>`)[0];
+            popup_d915c3c620f245dc9e297ea1beaa9e7e.setContent(html_7aba208732b443c6ba0fa2897aba2a2a);
+        
+
+        circle_marker_76a367a4bc3940d98de6145df089148d.bindPopup(popup_d915c3c620f245dc9e297ea1beaa9e7e)
+        ;
+
+        
+    
+    
+            var circle_marker_0d8bcf7520c14538a73fda1695174d1c = L.circleMarker(
+                [43.7679803, -79.48726190000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_3cc4aa82efe844d38a72b468c7f3bd96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9479514166de455d85e988dab585317f = $(`<div id="html_9479514166de455d85e988dab585317f" style="width: 100.0%; height: 100.0%;">Northwood Park,York University,Caribbean Restaurant</div>`)[0];
+            popup_3cc4aa82efe844d38a72b468c7f3bd96.setContent(html_9479514166de455d85e988dab585317f);
+        
+
+        circle_marker_0d8bcf7520c14538a73fda1695174d1c.bindPopup(popup_3cc4aa82efe844d38a72b468c7f3bd96)
+        ;
+
+        
+    
+    
+            var circle_marker_e166498549614f74ba2b7f88a595be91 = L.circleMarker(
+                [43.685347, -79.3381065],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_7110db878b3f489899d198719a329a93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c84da55b69e4e6fa04903ac78ca406c = $(`<div id="html_8c84da55b69e4e6fa04903ac78ca406c" style="width: 100.0%; height: 100.0%;">East Toronto,Turkish Restaurant</div>`)[0];
+            popup_7110db878b3f489899d198719a329a93.setContent(html_8c84da55b69e4e6fa04903ac78ca406c);
+        
+
+        circle_marker_e166498549614f74ba2b7f88a595be91.bindPopup(popup_7110db878b3f489899d198719a329a93)
+        ;
+
+        
+    
+    
+            var circle_marker_6d0d7c41a9744f8ba0204b1571586349 = L.circleMarker(
+                [43.685347, -79.3381065],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_b550936ede0c49a3aebde8c35f08347e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edbee06680064a15870b4f61e4b202a3 = $(`<div id="html_edbee06680064a15870b4f61e4b202a3" style="width: 100.0%; height: 100.0%;">East Toronto,American Restaurant</div>`)[0];
+            popup_b550936ede0c49a3aebde8c35f08347e.setContent(html_edbee06680064a15870b4f61e4b202a3);
+        
+
+        circle_marker_6d0d7c41a9744f8ba0204b1571586349.bindPopup(popup_b550936ede0c49a3aebde8c35f08347e)
+        ;
+
+        
+    
+    
+            var circle_marker_54dc548acead43b6a992adf14b15b3e0 = L.circleMarker(
+                [43.647926700000006, -79.4197497],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_54127d51d3474d76aabcc84416374974 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e9409ff8dfd455a94bd38e8fcfc400c = $(`<div id="html_6e9409ff8dfd455a94bd38e8fcfc400c" style="width: 100.0%; height: 100.0%;">Little Portugal,Trinity,Korean Restaurant</div>`)[0];
+            popup_54127d51d3474d76aabcc84416374974.setContent(html_6e9409ff8dfd455a94bd38e8fcfc400c);
+        
+
+        circle_marker_54dc548acead43b6a992adf14b15b3e0.bindPopup(popup_54127d51d3474d76aabcc84416374974)
+        ;
+
+        
+    
+    
+            var circle_marker_f86d9365d1b94c0792fd694d3861e952 = L.circleMarker(
+                [43.647926700000006, -79.4197497],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_063348cf89b843398e21d601d9069d8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd032489a3444dadb90d5c713e14b27a = $(`<div id="html_bd032489a3444dadb90d5c713e14b27a" style="width: 100.0%; height: 100.0%;">Little Portugal,Trinity,Greek Restaurant</div>`)[0];
+            popup_063348cf89b843398e21d601d9069d8b.setContent(html_bd032489a3444dadb90d5c713e14b27a);
+        
+
+        circle_marker_f86d9365d1b94c0792fd694d3861e952.bindPopup(popup_063348cf89b843398e21d601d9069d8b)
+        ;
+
+        
+    
+    
+            var circle_marker_5ae6525ac54e4288a0eb18c4d956c82f = L.circleMarker(
+                [43.7279292, -79.26202940000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_33c249255b114da48df473ab4323fb34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf35b00c366f492ba07513d1f3ea340c = $(`<div id="html_cf35b00c366f492ba07513d1f3ea340c" style="width: 100.0%; height: 100.0%;">East Birchmount Park,Ionview,Kennedy Park,Turkish Restaurant</div>`)[0];
+            popup_33c249255b114da48df473ab4323fb34.setContent(html_cf35b00c366f492ba07513d1f3ea340c);
+        
+
+        circle_marker_5ae6525ac54e4288a0eb18c4d956c82f.bindPopup(popup_33c249255b114da48df473ab4323fb34)
+        ;
+
+        
+    
+    
+            var circle_marker_8795e5e3648e4247870c853fab42aacc = L.circleMarker(
+                [43.7279292, -79.26202940000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_f85a2764cf934652bc88dfa988c77058 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c76f60e2c263459caa5088a0fb1a8ee4 = $(`<div id="html_c76f60e2c263459caa5088a0fb1a8ee4" style="width: 100.0%; height: 100.0%;">East Birchmount Park,Ionview,Kennedy Park,Chinese Restaurant</div>`)[0];
+            popup_f85a2764cf934652bc88dfa988c77058.setContent(html_c76f60e2c263459caa5088a0fb1a8ee4);
+        
+
+        circle_marker_8795e5e3648e4247870c853fab42aacc.bindPopup(popup_f85a2764cf934652bc88dfa988c77058)
+        ;
+
+        
+    
+    
+            var circle_marker_2e25e7499baa4226b0ed45bcdd0e50ef = L.circleMarker(
+                [43.7869473, -79.385975],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_0a1bd14fe4b24dc69201faa0406890c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e006dfbbb3f340f3951079c28c5f8e63 = $(`<div id="html_e006dfbbb3f340f3951079c28c5f8e63" style="width: 100.0%; height: 100.0%;">Bayview Village,Chinese Restaurant</div>`)[0];
+            popup_0a1bd14fe4b24dc69201faa0406890c2.setContent(html_e006dfbbb3f340f3951079c28c5f8e63);
+        
+
+        circle_marker_2e25e7499baa4226b0ed45bcdd0e50ef.bindPopup(popup_0a1bd14fe4b24dc69201faa0406890c2)
+        ;
+
+        
+    
+    
+            var circle_marker_64ea2bd0cf6041488e29749b80f0a1f5 = L.circleMarker(
+                [43.7869473, -79.385975],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_f771ebb4f5bd4a54b9577f615e02e4c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a249dbf511d4b649fe9acdf721afde1 = $(`<div id="html_0a249dbf511d4b649fe9acdf721afde1" style="width: 100.0%; height: 100.0%;">Bayview Village,Japanese Restaurant</div>`)[0];
+            popup_f771ebb4f5bd4a54b9577f615e02e4c9.setContent(html_0a249dbf511d4b649fe9acdf721afde1);
+        
+
+        circle_marker_64ea2bd0cf6041488e29749b80f0a1f5.bindPopup(popup_f771ebb4f5bd4a54b9577f615e02e4c9)
+        ;
+
+        
+    
+    
+            var circle_marker_0f4ad3be435b44179888c4d01fcc9883 = L.circleMarker(
+                [43.7869473, -79.385975],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_48c085053a0947eb920ace647d4efd9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11d351cce6a14035af13831b57198c3b = $(`<div id="html_11d351cce6a14035af13831b57198c3b" style="width: 100.0%; height: 100.0%;">Bayview Village,Chinese Restaurant</div>`)[0];
+            popup_48c085053a0947eb920ace647d4efd9f.setContent(html_11d351cce6a14035af13831b57198c3b);
+        
+
+        circle_marker_0f4ad3be435b44179888c4d01fcc9883.bindPopup(popup_48c085053a0947eb920ace647d4efd9f)
+        ;
+
+        
+    
+    
+            var circle_marker_4f0c8903a9134f6199a039e325710840 = L.circleMarker(
+                [43.7869473, -79.385975],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_032caac5e52a445db314f81d1815426e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72ec877d2a024815bfbf517ca634056d = $(`<div id="html_72ec877d2a024815bfbf517ca634056d" style="width: 100.0%; height: 100.0%;">Bayview Village,Chinese Restaurant</div>`)[0];
+            popup_032caac5e52a445db314f81d1815426e.setContent(html_72ec877d2a024815bfbf517ca634056d);
+        
+
+        circle_marker_4f0c8903a9134f6199a039e325710840.bindPopup(popup_032caac5e52a445db314f81d1815426e)
+        ;
+
+        
+    
+    
+            var circle_marker_b205874dd7ae40e98ee7d59bb5546c67 = L.circleMarker(
+                [43.6795571, -79.352188],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_5232b5cbc42c44d5b544571787b8c09b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2415accdfff34d68afe7d9b14498582a = $(`<div id="html_2415accdfff34d68afe7d9b14498582a" style="width: 100.0%; height: 100.0%;">The Danforth West,Riverdale,Greek Restaurant</div>`)[0];
+            popup_5232b5cbc42c44d5b544571787b8c09b.setContent(html_2415accdfff34d68afe7d9b14498582a);
+        
+
+        circle_marker_b205874dd7ae40e98ee7d59bb5546c67.bindPopup(popup_5232b5cbc42c44d5b544571787b8c09b)
+        ;
+
+        
+    
+    
+            var circle_marker_0250188ce31b4c7390b7e3c7fdad28f0 = L.circleMarker(
+                [43.6795571, -79.352188],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_b4c538ddbfeb467285d75677553f1b80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_856d0ce2c24643c2b67ddceaa4e74989 = $(`<div id="html_856d0ce2c24643c2b67ddceaa4e74989" style="width: 100.0%; height: 100.0%;">The Danforth West,Riverdale,Italian Restaurant</div>`)[0];
+            popup_b4c538ddbfeb467285d75677553f1b80.setContent(html_856d0ce2c24643c2b67ddceaa4e74989);
+        
+
+        circle_marker_0250188ce31b4c7390b7e3c7fdad28f0.bindPopup(popup_b4c538ddbfeb467285d75677553f1b80)
+        ;
+
+        
+    
+    
+            var circle_marker_be45e6028fa04d8899ebe8911f78773a = L.circleMarker(
+                [43.6795571, -79.352188],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_9c7ee1360ccb4956961e45c6b1be7b68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b5a85fa419c44b8bd7fff16df0f90c4 = $(`<div id="html_5b5a85fa419c44b8bd7fff16df0f90c4" style="width: 100.0%; height: 100.0%;">The Danforth West,Riverdale,Greek Restaurant</div>`)[0];
+            popup_9c7ee1360ccb4956961e45c6b1be7b68.setContent(html_5b5a85fa419c44b8bd7fff16df0f90c4);
+        
+
+        circle_marker_be45e6028fa04d8899ebe8911f78773a.bindPopup(popup_9c7ee1360ccb4956961e45c6b1be7b68)
+        ;
+
+        
+    
+    
+            var circle_marker_f64ff78c95bf41b29aa7c047f5c6c8ad = L.circleMarker(
+                [43.6471768, -79.38157640000001],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_850d4261e6c44346a4ea79c3df74d657 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c851553baf144d7db02fac385d0dc893 = $(`<div id="html_c851553baf144d7db02fac385d0dc893" style="width: 100.0%; height: 100.0%;">Design Exchange,Toronto Dominion Centre,Restaurant</div>`)[0];
+            popup_850d4261e6c44346a4ea79c3df74d657.setContent(html_c851553baf144d7db02fac385d0dc893);
+        
+
+        circle_marker_f64ff78c95bf41b29aa7c047f5c6c8ad.bindPopup(popup_850d4261e6c44346a4ea79c3df74d657)
+        ;
+
+        
+    
+    
+            var circle_marker_e2225d89e5574f878bfa864213093324 = L.circleMarker(
+                [43.711111700000004, -79.2845772],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_6e4a3420bf0c4dd9a51eff32386ea421 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77486d4c6e014e4fa7407d33013e57b7 = $(`<div id="html_77486d4c6e014e4fa7407d33013e57b7" style="width: 100.0%; height: 100.0%;">Clairlea,Golden Mile,Oakridge,Restaurant</div>`)[0];
+            popup_6e4a3420bf0c4dd9a51eff32386ea421.setContent(html_77486d4c6e014e4fa7407d33013e57b7);
+        
+
+        circle_marker_e2225d89e5574f878bfa864213093324.bindPopup(popup_6e4a3420bf0c4dd9a51eff32386ea421)
+        ;
+
+        
+    
+    
+            var circle_marker_e93ee861182149fbbe8ef54f81e86b96 = L.circleMarker(
+                [43.711111700000004, -79.2845772],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_9bf3b84299844f5d8a2a25c2da4b94e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cf9bee22c294614a803f735e25c92f2 = $(`<div id="html_8cf9bee22c294614a803f735e25c92f2" style="width: 100.0%; height: 100.0%;">Clairlea,Golden Mile,Oakridge,Mexican Restaurant</div>`)[0];
+            popup_9bf3b84299844f5d8a2a25c2da4b94e0.setContent(html_8cf9bee22c294614a803f735e25c92f2);
+        
+
+        circle_marker_e93ee861182149fbbe8ef54f81e86b96.bindPopup(popup_9bf3b84299844f5d8a2a25c2da4b94e0)
+        ;
+
+        
+    
+    
+            var circle_marker_71f25cb523f9496ba8b91eb177e1058d = L.circleMarker(
+                [43.7574902, -79.37471409999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_8097d3e2d28d4e45a816887385973495 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39130a84e7714562a256d97a0a1c816d = $(`<div id="html_39130a84e7714562a256d97a0a1c816d" style="width: 100.0%; height: 100.0%;">Silver Hills,York Mills,Italian Restaurant</div>`)[0];
+            popup_8097d3e2d28d4e45a816887385973495.setContent(html_39130a84e7714562a256d97a0a1c816d);
+        
+
+        circle_marker_71f25cb523f9496ba8b91eb177e1058d.bindPopup(popup_8097d3e2d28d4e45a816887385973495)
+        ;
+
+        
+    
+    
+            var circle_marker_03015a1c787a4e59a46526f1f0e9cc52 = L.circleMarker(
+                [43.7390146, -79.5069436],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_6c93dae46cc740658c8bf34139df3e2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a7a1f63ed6a4fecbd4ac1710d66b2e1 = $(`<div id="html_2a7a1f63ed6a4fecbd4ac1710d66b2e1" style="width: 100.0%; height: 100.0%;">Downsview West,Vietnamese Restaurant</div>`)[0];
+            popup_6c93dae46cc740658c8bf34139df3e2c.setContent(html_2a7a1f63ed6a4fecbd4ac1710d66b2e1);
+        
+
+        circle_marker_03015a1c787a4e59a46526f1f0e9cc52.bindPopup(popup_6c93dae46cc740658c8bf34139df3e2c)
+        ;
+
+        
+    
+    
+            var circle_marker_8d7926e9aa0a46cd9c0bb2345221746c = L.circleMarker(
+                [43.6689985, -79.31557159999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_64edde22b28545b9a70f73da05fa1af7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bf6fef0031049c88a8710c6af96b30f = $(`<div id="html_9bf6fef0031049c88a8710c6af96b30f" style="width: 100.0%; height: 100.0%;">The Beaches West,India Bazaar,Asian Restaurant</div>`)[0];
+            popup_64edde22b28545b9a70f73da05fa1af7.setContent(html_9bf6fef0031049c88a8710c6af96b30f);
+        
+
+        circle_marker_8d7926e9aa0a46cd9c0bb2345221746c.bindPopup(popup_64edde22b28545b9a70f73da05fa1af7)
+        ;
+
+        
+    
+    
+            var circle_marker_0a35386943e94db382de34e3ce0ab972 = L.circleMarker(
+                [43.6689985, -79.31557159999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_4be2775959484a55b86719145c3ad9ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52d0acb2858c43ab9ea8db48909ff00c = $(`<div id="html_52d0acb2858c43ab9ea8db48909ff00c" style="width: 100.0%; height: 100.0%;">The Beaches West,India Bazaar,Indian Restaurant</div>`)[0];
+            popup_4be2775959484a55b86719145c3ad9ab.setContent(html_52d0acb2858c43ab9ea8db48909ff00c);
+        
+
+        circle_marker_0a35386943e94db382de34e3ce0ab972.bindPopup(popup_4be2775959484a55b86719145c3ad9ab)
+        ;
+
+        
+    
+    
+            var circle_marker_dc1c0b1f34944516b643a4f0470587d8 = L.circleMarker(
+                [43.6481985, -79.37981690000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_96a9a0e4f38042a2b851ea8926a6aa36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21a3c4fbace5480a9c4d1c918764d08c = $(`<div id="html_21a3c4fbace5480a9c4d1c918764d08c" style="width: 100.0%; height: 100.0%;">Commerce Court,Victoria Hotel,Restaurant</div>`)[0];
+            popup_96a9a0e4f38042a2b851ea8926a6aa36.setContent(html_21a3c4fbace5480a9c4d1c918764d08c);
+        
+
+        circle_marker_dc1c0b1f34944516b643a4f0470587d8.bindPopup(popup_96a9a0e4f38042a2b851ea8926a6aa36)
+        ;
+
+        
+    
+    
+            var circle_marker_bacb0a9a11594a25886f9066c456e8ef = L.circleMarker(
+                [43.71375620000001, -79.4900738],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_440d74d9896a435f8fdf154d1cbe9b0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7c05a798be747e59a697337e218b080 = $(`<div id="html_a7c05a798be747e59a697337e218b080" style="width: 100.0%; height: 100.0%;">Downsview,North Park,Upwood Park,Vietnamese Restaurant</div>`)[0];
+            popup_440d74d9896a435f8fdf154d1cbe9b0c.setContent(html_a7c05a798be747e59a697337e218b080);
+        
+
+        circle_marker_bacb0a9a11594a25886f9066c456e8ef.bindPopup(popup_440d74d9896a435f8fdf154d1cbe9b0c)
+        ;
+
+        
+    
+    
+            var circle_marker_9e119806eb4e426d8b950e0aefbf3bce = L.circleMarker(
+                [43.71375620000001, -79.4900738],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_28b587e586af4344afc0d90a59e26734 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7f9cfdf76304e70ae6e5a0c9edf50e6 = $(`<div id="html_f7f9cfdf76304e70ae6e5a0c9edf50e6" style="width: 100.0%; height: 100.0%;">Downsview,North Park,Upwood Park,Falafel Restaurant</div>`)[0];
+            popup_28b587e586af4344afc0d90a59e26734.setContent(html_f7f9cfdf76304e70ae6e5a0c9edf50e6);
+        
+
+        circle_marker_9e119806eb4e426d8b950e0aefbf3bce.bindPopup(popup_28b587e586af4344afc0d90a59e26734)
+        ;
+
+        
+    
+    
+            var circle_marker_81e77a893ca64d0192c8337e68c0fa84 = L.circleMarker(
+                [43.71375620000001, -79.4900738],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_4ac80a27977e44189a7c20d74c8462dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cfa9edc6581487e9359b734d9c8b4ba = $(`<div id="html_1cfa9edc6581487e9359b734d9c8b4ba" style="width: 100.0%; height: 100.0%;">Downsview,North Park,Upwood Park,Vietnamese Restaurant</div>`)[0];
+            popup_4ac80a27977e44189a7c20d74c8462dc.setContent(html_1cfa9edc6581487e9359b734d9c8b4ba);
+        
+
+        circle_marker_81e77a893ca64d0192c8337e68c0fa84.bindPopup(popup_4ac80a27977e44189a7c20d74c8462dc)
+        ;
+
+        
+    
+    
+            var circle_marker_0c0494d4c8894e208bc55f3573bb7ffb = L.circleMarker(
+                [43.7563033, -79.56596329999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_4073029ff05e4459b2dc7208640e6a0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1503d351e2d748c598744d03fda7b914 = $(`<div id="html_1503d351e2d748c598744d03fda7b914" style="width: 100.0%; height: 100.0%;">Humber Summit,Latin American Restaurant</div>`)[0];
+            popup_4073029ff05e4459b2dc7208640e6a0a.setContent(html_1503d351e2d748c598744d03fda7b914);
+        
+
+        circle_marker_0c0494d4c8894e208bc55f3573bb7ffb.bindPopup(popup_4073029ff05e4459b2dc7208640e6a0a)
+        ;
+
+        
+    
+    
+            var circle_marker_be333d7213c74d52a6001b19ae2d93d4 = L.circleMarker(
+                [43.7563033, -79.56596329999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_0e7da3b547ce4c499d22f8f48d13f292 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_790f51e625084bb396dbc74b6d3d078a = $(`<div id="html_790f51e625084bb396dbc74b6d3d078a" style="width: 100.0%; height: 100.0%;">Humber Summit,Asian Restaurant</div>`)[0];
+            popup_0e7da3b547ce4c499d22f8f48d13f292.setContent(html_790f51e625084bb396dbc74b6d3d078a);
+        
+
+        circle_marker_be333d7213c74d52a6001b19ae2d93d4.bindPopup(popup_0e7da3b547ce4c499d22f8f48d13f292)
+        ;
+
+        
+    
+    
+            var circle_marker_e2278ae09d9e4d4290b4d166120efa28 = L.circleMarker(
+                [43.7563033, -79.56596329999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_e6b45196fad44de39de8efb508ff5398 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6780f8326244ea0a8ac5dbc9f444c8f = $(`<div id="html_c6780f8326244ea0a8ac5dbc9f444c8f" style="width: 100.0%; height: 100.0%;">Humber Summit,Mexican Restaurant</div>`)[0];
+            popup_e6b45196fad44de39de8efb508ff5398.setContent(html_c6780f8326244ea0a8ac5dbc9f444c8f);
+        
+
+        circle_marker_e2278ae09d9e4d4290b4d166120efa28.bindPopup(popup_e6b45196fad44de39de8efb508ff5398)
+        ;
+
+        
+    
+    
+            var circle_marker_db639ae61bbc42818a8778003fda30a9 = L.circleMarker(
+                [43.7563033, -79.56596329999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_b7bdc6c36ae94270816d532dbec516a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0550f9514447497fbd705e53cecc45c0 = $(`<div id="html_0550f9514447497fbd705e53cecc45c0" style="width: 100.0%; height: 100.0%;">Humber Summit,Vietnamese Restaurant</div>`)[0];
+            popup_b7bdc6c36ae94270816d532dbec516a6.setContent(html_0550f9514447497fbd705e53cecc45c0);
+        
+
+        circle_marker_db639ae61bbc42818a8778003fda30a9.bindPopup(popup_b7bdc6c36ae94270816d532dbec516a6)
+        ;
+
+        
+    
+    
+            var circle_marker_29f381d36c8c4adfa16d443b5521f112 = L.circleMarker(
+                [43.716316, -79.23947609999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_793606d421b846e089665a42434ac2ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efbea9a3a3d44b0d8db13d992e848250 = $(`<div id="html_efbea9a3a3d44b0d8db13d992e848250" style="width: 100.0%; height: 100.0%;">Cliffcrest,Cliffside,Scarborough Village West,Fast Food Restaurant</div>`)[0];
+            popup_793606d421b846e089665a42434ac2ef.setContent(html_efbea9a3a3d44b0d8db13d992e848250);
+        
+
+        circle_marker_29f381d36c8c4adfa16d443b5521f112.bindPopup(popup_793606d421b846e089665a42434ac2ef)
+        ;
+
+        
+    
+    
+            var circle_marker_7a0812d5b6d84c67875974f240316306 = L.circleMarker(
+                [43.789053, -79.40849279999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_ec3ec198951945a3b7c98c2538c130e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e827d314a634336ae80c875bf404f58 = $(`<div id="html_8e827d314a634336ae80c875bf404f58" style="width: 100.0%; height: 100.0%;">Newtonbrook,Willowdale,Korean Restaurant</div>`)[0];
+            popup_ec3ec198951945a3b7c98c2538c130e2.setContent(html_8e827d314a634336ae80c875bf404f58);
+        
+
+        circle_marker_7a0812d5b6d84c67875974f240316306.bindPopup(popup_ec3ec198951945a3b7c98c2538c130e2)
+        ;
+
+        
+    
+    
+            var circle_marker_010028cae65b45cd8ded946b912d5d0b = L.circleMarker(
+                [43.789053, -79.40849279999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_eda618e15d774152a18d7cf27431c8ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06a7c20626af42d9b5a57d5f4a18fb96 = $(`<div id="html_06a7c20626af42d9b5a57d5f4a18fb96" style="width: 100.0%; height: 100.0%;">Newtonbrook,Willowdale,Thai Restaurant</div>`)[0];
+            popup_eda618e15d774152a18d7cf27431c8ee.setContent(html_06a7c20626af42d9b5a57d5f4a18fb96);
+        
+
+        circle_marker_010028cae65b45cd8ded946b912d5d0b.bindPopup(popup_eda618e15d774152a18d7cf27431c8ee)
+        ;
+
+        
+    
+    
+            var circle_marker_c0815d3de91946f78b9dab116ac72053 = L.circleMarker(
+                [43.789053, -79.40849279999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_75cfc03067324923805fe1d4d0ab86be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_954626e6a6374b30a9ec671e4edfc168 = $(`<div id="html_954626e6a6374b30a9ec671e4edfc168" style="width: 100.0%; height: 100.0%;">Newtonbrook,Willowdale,Korean Restaurant</div>`)[0];
+            popup_75cfc03067324923805fe1d4d0ab86be.setContent(html_954626e6a6374b30a9ec671e4edfc168);
+        
+
+        circle_marker_c0815d3de91946f78b9dab116ac72053.bindPopup(popup_75cfc03067324923805fe1d4d0ab86be)
+        ;
+
+        
+    
+    
+            var circle_marker_efc3e8c9cee147fdbcc4d6e6ddd78e01 = L.circleMarker(
+                [43.7284964, -79.49569740000003],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_ea4ec014760940fbb45671bb6a5872d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82f08b59e50a479b959d08d055e35af4 = $(`<div id="html_82f08b59e50a479b959d08d055e35af4" style="width: 100.0%; height: 100.0%;">Downsview Central,Vietnamese Restaurant</div>`)[0];
+            popup_ea4ec014760940fbb45671bb6a5872d5.setContent(html_82f08b59e50a479b959d08d055e35af4);
+        
+
+        circle_marker_efc3e8c9cee147fdbcc4d6e6ddd78e01.bindPopup(popup_ea4ec014760940fbb45671bb6a5872d5)
+        ;
+
+        
+    
+    
+            var circle_marker_785e5b58e7b2489ab381c764e8e7b317 = L.circleMarker(
+                [43.7284964, -79.49569740000003],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_79780259724b4c33b58f2ea86a64d744 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52ce59005b014f8c869365fa8b8f50e5 = $(`<div id="html_52ce59005b014f8c869365fa8b8f50e5" style="width: 100.0%; height: 100.0%;">Downsview Central,Falafel Restaurant</div>`)[0];
+            popup_79780259724b4c33b58f2ea86a64d744.setContent(html_52ce59005b014f8c869365fa8b8f50e5);
+        
+
+        circle_marker_785e5b58e7b2489ab381c764e8e7b317.bindPopup(popup_79780259724b4c33b58f2ea86a64d744)
+        ;
+
+        
+    
+    
+            var circle_marker_1dfa8fade36e4e41b865269455ee344c = L.circleMarker(
+                [43.7332825, -79.4197497],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_7093a3c748694900ad59ea8b17dd0736 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b74499ece384c4195f53d40a98c8107 = $(`<div id="html_4b74499ece384c4195f53d40a98c8107" style="width: 100.0%; height: 100.0%;">Bedford Park,Lawrence Manor East,Restaurant</div>`)[0];
+            popup_7093a3c748694900ad59ea8b17dd0736.setContent(html_4b74499ece384c4195f53d40a98c8107);
+        
+
+        circle_marker_1dfa8fade36e4e41b865269455ee344c.bindPopup(popup_7093a3c748694900ad59ea8b17dd0736)
+        ;
+
+        
+    
+    
+            var circle_marker_50a71097f6294614bb5d8027401b9b87 = L.circleMarker(
+                [43.7332825, -79.4197497],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_0c1d297c476a4e79ae4dc1aca7af05af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_194c713e2ff54935af51679b37d937bc = $(`<div id="html_194c713e2ff54935af51679b37d937bc" style="width: 100.0%; height: 100.0%;">Bedford Park,Lawrence Manor East,Italian Restaurant</div>`)[0];
+            popup_0c1d297c476a4e79ae4dc1aca7af05af.setContent(html_194c713e2ff54935af51679b37d937bc);
+        
+
+        circle_marker_50a71097f6294614bb5d8027401b9b87.bindPopup(popup_0c1d297c476a4e79ae4dc1aca7af05af)
+        ;
+
+        
+    
+    
+            var circle_marker_a819ed24591a4866b9efff9480fe8b68 = L.circleMarker(
+                [43.6911158, -79.47601329999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_0b0cf800a0cb4f0cabb44ccbf0dba535 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd169ca618434579a4854273780f7f13 = $(`<div id="html_cd169ca618434579a4854273780f7f13" style="width: 100.0%; height: 100.0%;">Del Ray,Keelesdale,Mount Dennis,Silverthorn,Italian Restaurant</div>`)[0];
+            popup_0b0cf800a0cb4f0cabb44ccbf0dba535.setContent(html_cd169ca618434579a4854273780f7f13);
+        
+
+        circle_marker_a819ed24591a4866b9efff9480fe8b68.bindPopup(popup_0b0cf800a0cb4f0cabb44ccbf0dba535)
+        ;
+
+        
+    
+    
+            var circle_marker_83d10b9fae984c0eb70007fb64d536c8 = L.circleMarker(
+                [43.6911158, -79.47601329999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_fe97b0818653466e8803972e8141d0f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e6898e49c664940bfc687148b0d3c2b = $(`<div id="html_4e6898e49c664940bfc687148b0d3c2b" style="width: 100.0%; height: 100.0%;">Del Ray,Keelesdale,Mount Dennis,Silverthorn,Falafel Restaurant</div>`)[0];
+            popup_fe97b0818653466e8803972e8141d0f3.setContent(html_4e6898e49c664940bfc687148b0d3c2b);
+        
+
+        circle_marker_83d10b9fae984c0eb70007fb64d536c8.bindPopup(popup_fe97b0818653466e8803972e8141d0f3)
+        ;
+
+        
+    
+    
+            var circle_marker_26912f08347b4a519b84f3d722195bda = L.circleMarker(
+                [43.7247659, -79.53224240000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_109309655655488c87667fd330f7e640 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c9d2e8d7c6e45e596164cd86ee65f48 = $(`<div id="html_1c9d2e8d7c6e45e596164cd86ee65f48" style="width: 100.0%; height: 100.0%;">Emery,Humberlea,Japanese Restaurant</div>`)[0];
+            popup_109309655655488c87667fd330f7e640.setContent(html_1c9d2e8d7c6e45e596164cd86ee65f48);
+        
+
+        circle_marker_26912f08347b4a519b84f3d722195bda.bindPopup(popup_109309655655488c87667fd330f7e640)
+        ;
+
+        
+    
+    
+            var circle_marker_b27d4748b8ab44ef8b6e904dc4efc080 = L.circleMarker(
+                [43.7247659, -79.53224240000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_47122189cfa44e0ea05c6139e1e00c22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b234019de1b485998839fed59dab7fc = $(`<div id="html_2b234019de1b485998839fed59dab7fc" style="width: 100.0%; height: 100.0%;">Emery,Humberlea,Italian Restaurant</div>`)[0];
+            popup_47122189cfa44e0ea05c6139e1e00c22.setContent(html_2b234019de1b485998839fed59dab7fc);
+        
+
+        circle_marker_b27d4748b8ab44ef8b6e904dc4efc080.bindPopup(popup_47122189cfa44e0ea05c6139e1e00c22)
+        ;
+
+        
+    
+    
+            var circle_marker_58867e61fbf74895b7a4e1b67fa4f58f = L.circleMarker(
+                [43.692657000000004, -79.2648481],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_472d186c431742db910202976e633e1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ffd90792c504f75b6f3ddd51ade1c26 = $(`<div id="html_6ffd90792c504f75b6f3ddd51ade1c26" style="width: 100.0%; height: 100.0%;">Birch Cliff,Cliffside West,Thai Restaurant</div>`)[0];
+            popup_472d186c431742db910202976e633e1a.setContent(html_6ffd90792c504f75b6f3ddd51ade1c26);
+        
+
+        circle_marker_58867e61fbf74895b7a4e1b67fa4f58f.bindPopup(popup_472d186c431742db910202976e633e1a)
+        ;
+
+        
+    
+    
+            var circle_marker_da624a7ab7144f85a08bc43141d7c396 = L.circleMarker(
+                [43.692657000000004, -79.2648481],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_9740beaf1e7c4afbbfa8a9093834b34f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a98ec8058e8f42fc9c895392bbb8758d = $(`<div id="html_a98ec8058e8f42fc9c895392bbb8758d" style="width: 100.0%; height: 100.0%;">Birch Cliff,Cliffside West,Asian Restaurant</div>`)[0];
+            popup_9740beaf1e7c4afbbfa8a9093834b34f.setContent(html_a98ec8058e8f42fc9c895392bbb8758d);
+        
+
+        circle_marker_da624a7ab7144f85a08bc43141d7c396.bindPopup(popup_9740beaf1e7c4afbbfa8a9093834b34f)
+        ;
+
+        
+    
+    
+            var circle_marker_aa31f3c7f1d64eeca2ba61e66a8250dd = L.circleMarker(
+                [43.7701199, -79.40849279999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_873bb9116fcd4297a5b898c14a1f0c41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_958ba026989047b195f1ea1479df4aa2 = $(`<div id="html_958ba026989047b195f1ea1479df4aa2" style="width: 100.0%; height: 100.0%;">Willowdale South,Seafood Restaurant</div>`)[0];
+            popup_873bb9116fcd4297a5b898c14a1f0c41.setContent(html_958ba026989047b195f1ea1479df4aa2);
+        
+
+        circle_marker_aa31f3c7f1d64eeca2ba61e66a8250dd.bindPopup(popup_873bb9116fcd4297a5b898c14a1f0c41)
+        ;
+
+        
+    
+    
+            var circle_marker_9d33d027fc5744b882e5c093e47fad5e = L.circleMarker(
+                [43.7701199, -79.40849279999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_e8b745aa288a43cf9f4fe76cc82ac64c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3295f61317f4b538fe243fb44a2cabe = $(`<div id="html_c3295f61317f4b538fe243fb44a2cabe" style="width: 100.0%; height: 100.0%;">Willowdale South,Ramen Restaurant</div>`)[0];
+            popup_e8b745aa288a43cf9f4fe76cc82ac64c.setContent(html_c3295f61317f4b538fe243fb44a2cabe);
+        
+
+        circle_marker_9d33d027fc5744b882e5c093e47fad5e.bindPopup(popup_e8b745aa288a43cf9f4fe76cc82ac64c)
+        ;
+
+        
+    
+    
+            var circle_marker_d1f91b632bac4d04a365867c7f92bfd4 = L.circleMarker(
+                [43.706876, -79.51818840000001],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_5ec0a522e3264581b286ca207b71614b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d9cbb77c68b4e66a7443cfd34af4411 = $(`<div id="html_6d9cbb77c68b4e66a7443cfd34af4411" style="width: 100.0%; height: 100.0%;">Weston,Japanese Restaurant</div>`)[0];
+            popup_5ec0a522e3264581b286ca207b71614b.setContent(html_6d9cbb77c68b4e66a7443cfd34af4411);
+        
+
+        circle_marker_d1f91b632bac4d04a365867c7f92bfd4.bindPopup(popup_5ec0a522e3264581b286ca207b71614b)
+        ;
+
+        
+    
+    
+            var circle_marker_f48af9cb359e4681b650d8192b202058 = L.circleMarker(
+                [43.7574096, -79.27330400000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_01bb1344495a42099dc72b5073b31cd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cf5294b338b4af6a0054c2921a64c94 = $(`<div id="html_9cf5294b338b4af6a0054c2921a64c94" style="width: 100.0%; height: 100.0%;">Dorset Park,Scarborough Town Centre,Wexford Heights,Asian Restaurant</div>`)[0];
+            popup_01bb1344495a42099dc72b5073b31cd7.setContent(html_9cf5294b338b4af6a0054c2921a64c94);
+        
+
+        circle_marker_f48af9cb359e4681b650d8192b202058.bindPopup(popup_01bb1344495a42099dc72b5073b31cd7)
+        ;
+
+        
+    
+    
+            var circle_marker_a9af0a3fac124c46a827f02b4b96e9d5 = L.circleMarker(
+                [43.7574096, -79.27330400000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_fc651d19e14b4c28957d212d62c1736e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_007da1e7d8da4c749c0b8a8109b8d6ca = $(`<div id="html_007da1e7d8da4c749c0b8a8109b8d6ca" style="width: 100.0%; height: 100.0%;">Dorset Park,Scarborough Town Centre,Wexford Heights,Indian Restaurant</div>`)[0];
+            popup_fc651d19e14b4c28957d212d62c1736e.setContent(html_007da1e7d8da4c749c0b8a8109b8d6ca);
+        
+
+        circle_marker_a9af0a3fac124c46a827f02b4b96e9d5.bindPopup(popup_fc651d19e14b4c28957d212d62c1736e)
+        ;
+
+        
+    
+    
+            var circle_marker_3c8a529c493e41f792286794cdb51d37 = L.circleMarker(
+                [43.752758299999996, -79.4000493],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_00000464a75743c5a446f5a0a3df5af6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0eee918fb16847718dafa516774fc4a0 = $(`<div id="html_0eee918fb16847718dafa516774fc4a0" style="width: 100.0%; height: 100.0%;">York Mills West,French Restaurant</div>`)[0];
+            popup_00000464a75743c5a446f5a0a3df5af6.setContent(html_0eee918fb16847718dafa516774fc4a0);
+        
+
+        circle_marker_3c8a529c493e41f792286794cdb51d37.bindPopup(popup_00000464a75743c5a446f5a0a3df5af6)
+        ;
+
+        
+    
+    
+            var circle_marker_2569db4d33914ea4a0422df89ff09134 = L.circleMarker(
+                [43.752758299999996, -79.4000493],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_96edeb2081f04e0ca2adb42e1dba1cfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97ad6324385e4aaaaa3feb22571581a3 = $(`<div id="html_97ad6324385e4aaaaa3feb22571581a3" style="width: 100.0%; height: 100.0%;">York Mills West,Japanese Restaurant</div>`)[0];
+            popup_96edeb2081f04e0ca2adb42e1dba1cfc.setContent(html_97ad6324385e4aaaaa3feb22571581a3);
+        
+
+        circle_marker_2569db4d33914ea4a0422df89ff09134.bindPopup(popup_96edeb2081f04e0ca2adb42e1dba1cfc)
+        ;
+
+        
+    
+    
+            var circle_marker_6ab0c56433ec48af803600bab8a6c9d3 = L.circleMarker(
+                [43.752758299999996, -79.4000493],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_9a81460e95bd427ebf781e8d5539b2d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d8c1341c1b443c3929de92783fbdb72 = $(`<div id="html_1d8c1341c1b443c3929de92783fbdb72" style="width: 100.0%; height: 100.0%;">York Mills West,Thai Restaurant</div>`)[0];
+            popup_9a81460e95bd427ebf781e8d5539b2d5.setContent(html_1d8c1341c1b443c3929de92783fbdb72);
+        
+
+        circle_marker_6ab0c56433ec48af803600bab8a6c9d3.bindPopup(popup_9a81460e95bd427ebf781e8d5539b2d5)
+        ;
+
+        
+    
+    
+            var circle_marker_1b6cdb50252044349b91a1c515421ea5 = L.circleMarker(
+                [43.6616083, -79.46476329999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_888c592760ce41539d0dc9885d3b7466 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adb02e84553540b190f426659fb37ec0 = $(`<div id="html_adb02e84553540b190f426659fb37ec0" style="width: 100.0%; height: 100.0%;">High Park,The Junction South,Italian Restaurant</div>`)[0];
+            popup_888c592760ce41539d0dc9885d3b7466.setContent(html_adb02e84553540b190f426659fb37ec0);
+        
+
+        circle_marker_1b6cdb50252044349b91a1c515421ea5.bindPopup(popup_888c592760ce41539d0dc9885d3b7466)
+        ;
+
+        
+    
+    
+            var circle_marker_d0d60f4876ab4bc1915285d9814cebfd = L.circleMarker(
+                [43.6616083, -79.46476329999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_5d9cfc7a515145d2bd982101438f8eed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcaf04916938429cbe574f3d3281d9b5 = $(`<div id="html_bcaf04916938429cbe574f3d3281d9b5" style="width: 100.0%; height: 100.0%;">High Park,The Junction South,Seafood Restaurant</div>`)[0];
+            popup_5d9cfc7a515145d2bd982101438f8eed.setContent(html_bcaf04916938429cbe574f3d3281d9b5);
+        
+
+        circle_marker_d0d60f4876ab4bc1915285d9814cebfd.bindPopup(popup_5d9cfc7a515145d2bd982101438f8eed)
+        ;
+
+        
+    
+    
+            var circle_marker_8f0711e55b004e0e83c61805f3a41531 = L.circleMarker(
+                [43.696319, -79.53224240000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_e9c3b97a5171440db67af7098ec00509 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3aa362f79db84c8993284623e9a13e53 = $(`<div id="html_3aa362f79db84c8993284623e9a13e53" style="width: 100.0%; height: 100.0%;">Westmount,Chinese Restaurant</div>`)[0];
+            popup_e9c3b97a5171440db67af7098ec00509.setContent(html_3aa362f79db84c8993284623e9a13e53);
+        
+
+        circle_marker_8f0711e55b004e0e83c61805f3a41531.bindPopup(popup_e9c3b97a5171440db67af7098ec00509)
+        ;
+
+        
+    
+    
+            var circle_marker_7c2a3e7c7e9a49768d903a960ca85204 = L.circleMarker(
+                [43.750071500000004, -79.2958491],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_9d9988be859a4b9d8d440559ace44447 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cded0c2a1d964459a7f045c991753f50 = $(`<div id="html_cded0c2a1d964459a7f045c991753f50" style="width: 100.0%; height: 100.0%;">Maryvale,Wexford,Vietnamese Restaurant</div>`)[0];
+            popup_9d9988be859a4b9d8d440559ace44447.setContent(html_cded0c2a1d964459a7f045c991753f50);
+        
+
+        circle_marker_7c2a3e7c7e9a49768d903a960ca85204.bindPopup(popup_9d9988be859a4b9d8d440559ace44447)
+        ;
+
+        
+    
+    
+            var circle_marker_8e41ffc0eba14e288593b42fa1ee8c0d = L.circleMarker(
+                [43.750071500000004, -79.2958491],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_3edc0a6ee2f646cc8494ce27ae26a484 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7013e2a862ec472f97942f49030432b7 = $(`<div id="html_7013e2a862ec472f97942f49030432b7" style="width: 100.0%; height: 100.0%;">Maryvale,Wexford,Korean Restaurant</div>`)[0];
+            popup_3edc0a6ee2f646cc8494ce27ae26a484.setContent(html_7013e2a862ec472f97942f49030432b7);
+        
+
+        circle_marker_8e41ffc0eba14e288593b42fa1ee8c0d.bindPopup(popup_3edc0a6ee2f646cc8494ce27ae26a484)
+        ;
+
+        
+    
+    
+            var circle_marker_9540e66780d04f73ba0361ffe7882e2e = L.circleMarker(
+                [43.750071500000004, -79.2958491],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_62060b8ed7864d86851a5cb11f3e682c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06982971958f47aba39eb9cbcc4acd68 = $(`<div id="html_06982971958f47aba39eb9cbcc4acd68" style="width: 100.0%; height: 100.0%;">Maryvale,Wexford,Middle Eastern Restaurant</div>`)[0];
+            popup_62060b8ed7864d86851a5cb11f3e682c.setContent(html_06982971958f47aba39eb9cbcc4acd68);
+        
+
+        circle_marker_9540e66780d04f73ba0361ffe7882e2e.bindPopup(popup_62060b8ed7864d86851a5cb11f3e682c)
+        ;
+
+        
+    
+    
+            var circle_marker_0005083f6fd148948db4cba64b3fbd66 = L.circleMarker(
+                [43.7827364, -79.4422593],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_9be17f928a0e410b913008cf87ac2772 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b15d0627785d490eb7990cc92c605362 = $(`<div id="html_b15d0627785d490eb7990cc92c605362" style="width: 100.0%; height: 100.0%;">Willowdale West,Doner Restaurant</div>`)[0];
+            popup_9be17f928a0e410b913008cf87ac2772.setContent(html_b15d0627785d490eb7990cc92c605362);
+        
+
+        circle_marker_0005083f6fd148948db4cba64b3fbd66.bindPopup(popup_9be17f928a0e410b913008cf87ac2772)
+        ;
+
+        
+    
+    
+            var circle_marker_63b8a8d5c3b441edb9fbd61ebb386b03 = L.circleMarker(
+                [43.7827364, -79.4422593],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_7c39bb2a36d143729a5b5ebc6657d3e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e576a8787d8e4828ab8bfef1ea3b0dea = $(`<div id="html_e576a8787d8e4828ab8bfef1ea3b0dea" style="width: 100.0%; height: 100.0%;">Willowdale West,Vietnamese Restaurant</div>`)[0];
+            popup_7c39bb2a36d143729a5b5ebc6657d3e5.setContent(html_e576a8787d8e4828ab8bfef1ea3b0dea);
+        
+
+        circle_marker_63b8a8d5c3b441edb9fbd61ebb386b03.bindPopup(popup_7c39bb2a36d143729a5b5ebc6657d3e5)
+        ;
+
+        
+    
+    
+            var circle_marker_b1a65c63f0264467a6edb8c5035c1255 = L.circleMarker(
+                [43.6727097, -79.40567840000001],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_6ec3452f214b43bab23e781849e2dece = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57f08aa414d24cd28629cf19c83a91e2 = $(`<div id="html_57f08aa414d24cd28629cf19c83a91e2" style="width: 100.0%; height: 100.0%;">The Annex,North Midtown,Yorkville,Indian Restaurant</div>`)[0];
+            popup_6ec3452f214b43bab23e781849e2dece.setContent(html_57f08aa414d24cd28629cf19c83a91e2);
+        
+
+        circle_marker_b1a65c63f0264467a6edb8c5035c1255.bindPopup(popup_6ec3452f214b43bab23e781849e2dece)
+        ;
+
+        
+    
+    
+            var circle_marker_8f914d79a05d4f4ca26e832156cffd68 = L.circleMarker(
+                [43.6727097, -79.40567840000001],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_8993a87667a74f90a1ba4306b3786c55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_476bcfcaa6a9478dab50fd57b340fcb9 = $(`<div id="html_476bcfcaa6a9478dab50fd57b340fcb9" style="width: 100.0%; height: 100.0%;">The Annex,North Midtown,Yorkville,American Restaurant</div>`)[0];
+            popup_8993a87667a74f90a1ba4306b3786c55.setContent(html_476bcfcaa6a9478dab50fd57b340fcb9);
+        
+
+        circle_marker_8f914d79a05d4f4ca26e832156cffd68.bindPopup(popup_8993a87667a74f90a1ba4306b3786c55)
+        ;
+
+        
+    
+    
+            var circle_marker_8e8c49e2bb6e42f180dc7447f5a810ae = L.circleMarker(
+                [43.6489597, -79.456325],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_81d4f792da2740849011ae3e4ed74b63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04f9fe1baf4c4338beacd907dbe17b5b = $(`<div id="html_04f9fe1baf4c4338beacd907dbe17b5b" style="width: 100.0%; height: 100.0%;">Parkdale,Roncesvalles,Cuban Restaurant</div>`)[0];
+            popup_81d4f792da2740849011ae3e4ed74b63.setContent(html_04f9fe1baf4c4338beacd907dbe17b5b);
+        
+
+        circle_marker_8e8c49e2bb6e42f180dc7447f5a810ae.bindPopup(popup_81d4f792da2740849011ae3e4ed74b63)
+        ;
+
+        
+    
+    
+            var circle_marker_90aaa86fc6b54de996e55958019aa12a = L.circleMarker(
+                [43.6369656, -79.61581899999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_f238d737305740768ae2503dd7195ebf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b007b6f921944439967882e14efe23f = $(`<div id="html_0b007b6f921944439967882e14efe23f" style="width: 100.0%; height: 100.0%;">Canada Post Gateway Processing Centre,Mexican Restaurant</div>`)[0];
+            popup_f238d737305740768ae2503dd7195ebf.setContent(html_0b007b6f921944439967882e14efe23f);
+        
+
+        circle_marker_90aaa86fc6b54de996e55958019aa12a.bindPopup(popup_f238d737305740768ae2503dd7195ebf)
+        ;
+
+        
+    
+    
+            var circle_marker_246631a756094438abcedcba578afbbd = L.circleMarker(
+                [43.6369656, -79.61581899999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_5958e064b1af4844b96a28a552b72d0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e27d4d22fd59431f8634090dcf4da1b4 = $(`<div id="html_e27d4d22fd59431f8634090dcf4da1b4" style="width: 100.0%; height: 100.0%;">Canada Post Gateway Processing Centre,Asian Restaurant</div>`)[0];
+            popup_5958e064b1af4844b96a28a552b72d0c.setContent(html_e27d4d22fd59431f8634090dcf4da1b4);
+        
+
+        circle_marker_246631a756094438abcedcba578afbbd.bindPopup(popup_5958e064b1af4844b96a28a552b72d0c)
+        ;
+
+        
+    
+    
+            var circle_marker_5e24c95741f84fad97809bd14e5e5e28 = L.circleMarker(
+                [43.6369656, -79.61581899999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_379da1d68b18441cb98815fcc79b0cd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c225aa90a6ba4a049f567ed2918ffdda = $(`<div id="html_c225aa90a6ba4a049f567ed2918ffdda" style="width: 100.0%; height: 100.0%;">Canada Post Gateway Processing Centre,Middle Eastern Restaurant</div>`)[0];
+            popup_379da1d68b18441cb98815fcc79b0cd4.setContent(html_c225aa90a6ba4a049f567ed2918ffdda);
+        
+
+        circle_marker_5e24c95741f84fad97809bd14e5e5e28.bindPopup(popup_379da1d68b18441cb98815fcc79b0cd4)
+        ;
+
+        
+    
+    
+            var circle_marker_6a722919c9e64d988410bdb903e59a44 = L.circleMarker(
+                [43.6369656, -79.61581899999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_03bc4ff5c20b48c89bfaf198f1eba58a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6461bfdaf99e49d3b9145403c3b3e913 = $(`<div id="html_6461bfdaf99e49d3b9145403c3b3e913" style="width: 100.0%; height: 100.0%;">Canada Post Gateway Processing Centre,Middle Eastern Restaurant</div>`)[0];
+            popup_03bc4ff5c20b48c89bfaf198f1eba58a.setContent(html_6461bfdaf99e49d3b9145403c3b3e913);
+        
+
+        circle_marker_6a722919c9e64d988410bdb903e59a44.bindPopup(popup_03bc4ff5c20b48c89bfaf198f1eba58a)
+        ;
+
+        
+    
+    
+            var circle_marker_542c66acc2d84d75b79c90fc8d3f6bca = L.circleMarker(
+                [43.6889054, -79.55472440000001],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_d299d2b20158422da7cfda11580e5cb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fd5c7794dee4f43bd3d26760959a6aa = $(`<div id="html_0fd5c7794dee4f43bd3d26760959a6aa" style="width: 100.0%; height: 100.0%;">Kingsview Village,Martin Grove Gardens,Richview Gardens,St. Phillips,Chinese Restaurant</div>`)[0];
+            popup_d299d2b20158422da7cfda11580e5cb4.setContent(html_0fd5c7794dee4f43bd3d26760959a6aa);
+        
+
+        circle_marker_542c66acc2d84d75b79c90fc8d3f6bca.bindPopup(popup_d299d2b20158422da7cfda11580e5cb4)
+        ;
+
+        
+    
+    
+            var circle_marker_4384985c99864931a4fbbdd3df6f0578 = L.circleMarker(
+                [43.7942003, -79.26202940000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_591f4d2edb5c4ac184a283775a891d58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa9a95a9b8c749fcbdab910742b3d55b = $(`<div id="html_aa9a95a9b8c749fcbdab910742b3d55b" style="width: 100.0%; height: 100.0%;">Agincourt,Caribbean Restaurant</div>`)[0];
+            popup_591f4d2edb5c4ac184a283775a891d58.setContent(html_aa9a95a9b8c749fcbdab910742b3d55b);
+        
+
+        circle_marker_4384985c99864931a4fbbdd3df6f0578.bindPopup(popup_591f4d2edb5c4ac184a283775a891d58)
+        ;
+
+        
+    
+    
+            var circle_marker_1146a2dce3d143dcae65be981aa6bf39 = L.circleMarker(
+                [43.7942003, -79.26202940000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_264993e659214d118841fbcfee18f0d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ee3f0f651ca4c44abc11d57148c4772 = $(`<div id="html_1ee3f0f651ca4c44abc11d57148c4772" style="width: 100.0%; height: 100.0%;">Agincourt,Caribbean Restaurant</div>`)[0];
+            popup_264993e659214d118841fbcfee18f0d9.setContent(html_1ee3f0f651ca4c44abc11d57148c4772);
+        
+
+        circle_marker_1146a2dce3d143dcae65be981aa6bf39.bindPopup(popup_264993e659214d118841fbcfee18f0d9)
+        ;
+
+        
+    
+    
+            var circle_marker_d77c8ed509824c2a8ef05378fd26a635 = L.circleMarker(
+                [43.7942003, -79.26202940000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_cfdc3cfad4ec4cc9bd477d3edad24a0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fcd5c7c75b54a6194e26d8aa2daf916 = $(`<div id="html_5fcd5c7c75b54a6194e26d8aa2daf916" style="width: 100.0%; height: 100.0%;">Agincourt,Sri Lankan Restaurant</div>`)[0];
+            popup_cfdc3cfad4ec4cc9bd477d3edad24a0c.setContent(html_5fcd5c7c75b54a6194e26d8aa2daf916);
+        
+
+        circle_marker_d77c8ed509824c2a8ef05378fd26a635.bindPopup(popup_cfdc3cfad4ec4cc9bd477d3edad24a0c)
+        ;
+
+        
+    
+    
+            var circle_marker_304d2609087c473f92d7ec8b5c147c67 = L.circleMarker(
+                [43.7942003, -79.26202940000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_2b8573c82c104273b9a1c5df438f76e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81b41d21e579446d8444f651a1bb18f7 = $(`<div id="html_81b41d21e579446d8444f651a1bb18f7" style="width: 100.0%; height: 100.0%;">Agincourt,Chinese Restaurant</div>`)[0];
+            popup_2b8573c82c104273b9a1c5df438f76e5.setContent(html_81b41d21e579446d8444f651a1bb18f7);
+        
+
+        circle_marker_304d2609087c473f92d7ec8b5c147c67.bindPopup(popup_2b8573c82c104273b9a1c5df438f76e5)
+        ;
+
+        
+    
+    
+            var circle_marker_1a1ec19623f6493fa8d2f60f47ab9510 = L.circleMarker(
+                [43.7043244, -79.3887901],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_84da963a12884935a6bf902b62105835 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebbdaf74d4a04b77933c4be4b1444366 = $(`<div id="html_ebbdaf74d4a04b77933c4be4b1444366" style="width: 100.0%; height: 100.0%;">Davisville,Indian Restaurant</div>`)[0];
+            popup_84da963a12884935a6bf902b62105835.setContent(html_ebbdaf74d4a04b77933c4be4b1444366);
+        
+
+        circle_marker_1a1ec19623f6493fa8d2f60f47ab9510.bindPopup(popup_84da963a12884935a6bf902b62105835)
+        ;
+
+        
+    
+    
+            var circle_marker_1a0918c949804325bc898984752ad344 = L.circleMarker(
+                [43.6626956, -79.4000493],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_797e824cb77a4048a5982f4f7dd96c7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab8d2737348741e6bf4a49071d06e2ba = $(`<div id="html_ab8d2737348741e6bf4a49071d06e2ba" style="width: 100.0%; height: 100.0%;">Harbord,University of Toronto,Japanese Restaurant</div>`)[0];
+            popup_797e824cb77a4048a5982f4f7dd96c7c.setContent(html_ab8d2737348741e6bf4a49071d06e2ba);
+        
+
+        circle_marker_1a0918c949804325bc898984752ad344.bindPopup(popup_797e824cb77a4048a5982f4f7dd96c7c)
+        ;
+
+        
+    
+    
+            var circle_marker_84f8a63e673c4fd086a70548e11f9c4f = L.circleMarker(
+                [43.6626956, -79.4000493],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_7759f6e60afd4e5881623bd8f5892476 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d2b466e40f84fc7942e309762873120 = $(`<div id="html_4d2b466e40f84fc7942e309762873120" style="width: 100.0%; height: 100.0%;">Harbord,University of Toronto,Restaurant</div>`)[0];
+            popup_7759f6e60afd4e5881623bd8f5892476.setContent(html_4d2b466e40f84fc7942e309762873120);
+        
+
+        circle_marker_84f8a63e673c4fd086a70548e11f9c4f.bindPopup(popup_7759f6e60afd4e5881623bd8f5892476)
+        ;
+
+        
+    
+    
+            var circle_marker_dfb1357d624d4be8a8f75930a0f7206a = L.circleMarker(
+                [43.6626956, -79.4000493],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_b2913cde37eb406d8ba2a36a937b06d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a5edd161c94402abdd1196dc28ad236 = $(`<div id="html_4a5edd161c94402abdd1196dc28ad236" style="width: 100.0%; height: 100.0%;">Harbord,University of Toronto,Italian Restaurant</div>`)[0];
+            popup_b2913cde37eb406d8ba2a36a937b06d2.setContent(html_4a5edd161c94402abdd1196dc28ad236);
+        
+
+        circle_marker_dfb1357d624d4be8a8f75930a0f7206a.bindPopup(popup_b2913cde37eb406d8ba2a36a937b06d2)
+        ;
+
+        
+    
+    
+            var circle_marker_c6f18282a7054eef9dd24260557b9fd2 = L.circleMarker(
+                [43.6515706, -79.4844499],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_ae0c7d634ac441098fd60d2648bfd125 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea34042d481e49d394b80dd3ec3f04dd = $(`<div id="html_ea34042d481e49d394b80dd3ec3f04dd" style="width: 100.0%; height: 100.0%;">Runnymede,Swansea,Italian Restaurant</div>`)[0];
+            popup_ae0c7d634ac441098fd60d2648bfd125.setContent(html_ea34042d481e49d394b80dd3ec3f04dd);
+        
+
+        circle_marker_c6f18282a7054eef9dd24260557b9fd2.bindPopup(popup_ae0c7d634ac441098fd60d2648bfd125)
+        ;
+
+        
+    
+    
+            var circle_marker_ed1a2ec5cfdb467abd34fec9a023032d = L.circleMarker(
+                [43.7816375, -79.3043021],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_e93d68882067408c8289816619789d36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94d0a93f47c74f5e90b5854a7e4b2648 = $(`<div id="html_94d0a93f47c74f5e90b5854a7e4b2648" style="width: 100.0%; height: 100.0%;">Clarks Corners,Sullivan,Tam O&#39;Shanter,Italian Restaurant</div>`)[0];
+            popup_e93d68882067408c8289816619789d36.setContent(html_94d0a93f47c74f5e90b5854a7e4b2648);
+        
+
+        circle_marker_ed1a2ec5cfdb467abd34fec9a023032d.bindPopup(popup_e93d68882067408c8289816619789d36)
+        ;
+
+        
+    
+    
+            var circle_marker_ebf6a0f10c6e4d9bbf429c9a28969751 = L.circleMarker(
+                [43.7816375, -79.3043021],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_91403e874665409eb21e5f6afa5e3f1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17c6c674a2bb4f599fa0f033655f8347 = $(`<div id="html_17c6c674a2bb4f599fa0f033655f8347" style="width: 100.0%; height: 100.0%;">Clarks Corners,Sullivan,Tam O&#39;Shanter,Caribbean Restaurant</div>`)[0];
+            popup_91403e874665409eb21e5f6afa5e3f1e.setContent(html_17c6c674a2bb4f599fa0f033655f8347);
+        
+
+        circle_marker_ebf6a0f10c6e4d9bbf429c9a28969751.bindPopup(popup_91403e874665409eb21e5f6afa5e3f1e)
+        ;
+
+        
+    
+    
+            var circle_marker_f926de7c035e4769af7170a6a3f7d0d5 = L.circleMarker(
+                [43.7816375, -79.3043021],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_29e0d3dce9e040fda306891fc1c928d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f3f9b4f67e94c6e9a9023e557d3492e = $(`<div id="html_0f3f9b4f67e94c6e9a9023e557d3492e" style="width: 100.0%; height: 100.0%;">Clarks Corners,Sullivan,Tam O&#39;Shanter,Chinese Restaurant</div>`)[0];
+            popup_29e0d3dce9e040fda306891fc1c928d7.setContent(html_0f3f9b4f67e94c6e9a9023e557d3492e);
+        
+
+        circle_marker_f926de7c035e4769af7170a6a3f7d0d5.bindPopup(popup_29e0d3dce9e040fda306891fc1c928d7)
+        ;
+
+        
+    
+    
+            var circle_marker_3cf759f9e077432fb50390581ee3228c = L.circleMarker(
+                [43.7816375, -79.3043021],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_42e3265268934c798ff2219b604db8c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_138addedca9f4802b3a03b975d7c900e = $(`<div id="html_138addedca9f4802b3a03b975d7c900e" style="width: 100.0%; height: 100.0%;">Clarks Corners,Sullivan,Tam O&#39;Shanter,Seafood Restaurant</div>`)[0];
+            popup_42e3265268934c798ff2219b604db8c9.setContent(html_138addedca9f4802b3a03b975d7c900e);
+        
+
+        circle_marker_3cf759f9e077432fb50390581ee3228c.bindPopup(popup_42e3265268934c798ff2219b604db8c9)
+        ;
+
+        
+    
+    
+            var circle_marker_0968f7642ac54b729e168e7f64993105 = L.circleMarker(
+                [43.7816375, -79.3043021],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_7a3474f5f40e4a61b900dad8918874aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be7c060738be41619c2277e3479c9359 = $(`<div id="html_be7c060738be41619c2277e3479c9359" style="width: 100.0%; height: 100.0%;">Clarks Corners,Sullivan,Tam O&#39;Shanter,Falafel Restaurant</div>`)[0];
+            popup_7a3474f5f40e4a61b900dad8918874aa.setContent(html_be7c060738be41619c2277e3479c9359);
+        
+
+        circle_marker_0968f7642ac54b729e168e7f64993105.bindPopup(popup_7a3474f5f40e4a61b900dad8918874aa)
+        ;
+
+        
+    
+    
+            var circle_marker_68663276e41f40a2b3280a33c8e086fd = L.circleMarker(
+                [43.6532057, -79.4000493],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_17a3e7c2705947b4807eb3369ba059fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea5b27c1d7eb4ade8691c2c20dd4f446 = $(`<div id="html_ea5b27c1d7eb4ade8691c2c20dd4f446" style="width: 100.0%; height: 100.0%;">Chinatown,Grange Park,Kensington Market,Mexican Restaurant</div>`)[0];
+            popup_17a3e7c2705947b4807eb3369ba059fe.setContent(html_ea5b27c1d7eb4ade8691c2c20dd4f446);
+        
+
+        circle_marker_68663276e41f40a2b3280a33c8e086fd.bindPopup(popup_17a3e7c2705947b4807eb3369ba059fe)
+        ;
+
+        
+    
+    
+            var circle_marker_ad95990d59304718ae3c95a9c1891b7a = L.circleMarker(
+                [43.8152522, -79.2845772],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_5dcc1a90ff88450d9bbb952412a364a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dcde6d9b6a0405a91043be8e31c49e1 = $(`<div id="html_4dcde6d9b6a0405a91043be8e31c49e1" style="width: 100.0%; height: 100.0%;">Agincourt North,L&#39;Amoreaux East,Milliken,Steeles East,Caribbean Restaurant</div>`)[0];
+            popup_5dcc1a90ff88450d9bbb952412a364a7.setContent(html_4dcde6d9b6a0405a91043be8e31c49e1);
+        
+
+        circle_marker_ad95990d59304718ae3c95a9c1891b7a.bindPopup(popup_5dcc1a90ff88450d9bbb952412a364a7)
+        ;
+
+        
+    
+    
+            var circle_marker_770fb84f9fd44cd49650202c281ff77b = L.circleMarker(
+                [43.8152522, -79.2845772],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_5ab370531c984a789340318b808e4c1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c362d7c7b214680871609a253f467ac = $(`<div id="html_1c362d7c7b214680871609a253f467ac" style="width: 100.0%; height: 100.0%;">Agincourt North,L&#39;Amoreaux East,Milliken,Steeles East,Vegetarian / Vegan Restaurant</div>`)[0];
+            popup_5ab370531c984a789340318b808e4c1a.setContent(html_1c362d7c7b214680871609a253f467ac);
+        
+
+        circle_marker_770fb84f9fd44cd49650202c281ff77b.bindPopup(popup_5ab370531c984a789340318b808e4c1a)
+        ;
+
+        
+    
+    
+            var circle_marker_361207c3d9ed4d40874a8662df28bc5a = L.circleMarker(
+                [43.68641229999999, -79.4000493],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_2aa30faf6c7b4a5da5d06ceb73e53a78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d4a43e6e4454730b89f941ee15015e0 = $(`<div id="html_4d4a43e6e4454730b89f941ee15015e0" style="width: 100.0%; height: 100.0%;">Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West,French Restaurant</div>`)[0];
+            popup_2aa30faf6c7b4a5da5d06ceb73e53a78.setContent(html_4d4a43e6e4454730b89f941ee15015e0);
+        
+
+        circle_marker_361207c3d9ed4d40874a8662df28bc5a.bindPopup(popup_2aa30faf6c7b4a5da5d06ceb73e53a78)
+        ;
+
+        
+    
+    
+            var circle_marker_0cfbc9f3532f4c9dbc7276004a198e52 = L.circleMarker(
+                [43.6056466, -79.50132070000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_949233f411bb43f4ae54e71f7e4a578a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f9e20f909bb4735a7a909ed9b4635ad = $(`<div id="html_4f9e20f909bb4735a7a909ed9b4635ad" style="width: 100.0%; height: 100.0%;">Humber Bay Shores,Mimico South,New Toronto,Mexican Restaurant</div>`)[0];
+            popup_949233f411bb43f4ae54e71f7e4a578a.setContent(html_4f9e20f909bb4735a7a909ed9b4635ad);
+        
+
+        circle_marker_0cfbc9f3532f4c9dbc7276004a198e52.bindPopup(popup_949233f411bb43f4ae54e71f7e4a578a)
+        ;
+
+        
+    
+    
+            var circle_marker_43b3d275f1da4ea19ec9d877adce43bd = L.circleMarker(
+                [43.6056466, -79.50132070000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_a7507d351f994b5a9190f4271c772ca7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e674a4f3a8a43979919e5a52e245fb8 = $(`<div id="html_1e674a4f3a8a43979919e5a52e245fb8" style="width: 100.0%; height: 100.0%;">Humber Bay Shores,Mimico South,New Toronto,Italian Restaurant</div>`)[0];
+            popup_a7507d351f994b5a9190f4271c772ca7.setContent(html_1e674a4f3a8a43979919e5a52e245fb8);
+        
+
+        circle_marker_43b3d275f1da4ea19ec9d877adce43bd.bindPopup(popup_a7507d351f994b5a9190f4271c772ca7)
+        ;
+
+        
+    
+    
+            var circle_marker_b23bd87ed09147cb93094ba6235399fe = L.circleMarker(
+                [43.739416399999996, -79.5884369],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_b0046c455f73478c8732d04f9bd59669 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f09ebfd7891742b0858f1fe1b16550d8 = $(`<div id="html_f09ebfd7891742b0858f1fe1b16550d8" style="width: 100.0%; height: 100.0%;">Albion Gardens,Beaumond Heights,Humbergate,Jamestown,Mount Olive,Silverstone,South Steeles,Thistletown,Chinese Restaurant</div>`)[0];
+            popup_b0046c455f73478c8732d04f9bd59669.setContent(html_f09ebfd7891742b0858f1fe1b16550d8);
+        
+
+        circle_marker_b23bd87ed09147cb93094ba6235399fe.bindPopup(popup_b0046c455f73478c8732d04f9bd59669)
+        ;
+
+        
+    
+    
+            var circle_marker_c341be4fd674406abf8dcaac06c5ddd5 = L.circleMarker(
+                [43.79952520000001, -79.3183887],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_f0af4d9e0d074042ae3d9eeaaa56ebeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_946f4996b47248f3a0a9df751c99d561 = $(`<div id="html_946f4996b47248f3a0a9df751c99d561" style="width: 100.0%; height: 100.0%;">L&#39;Amoreaux West,Chinese Restaurant</div>`)[0];
+            popup_f0af4d9e0d074042ae3d9eeaaa56ebeb.setContent(html_946f4996b47248f3a0a9df751c99d561);
+        
+
+        circle_marker_c341be4fd674406abf8dcaac06c5ddd5.bindPopup(popup_f0af4d9e0d074042ae3d9eeaaa56ebeb)
+        ;
+
+        
+    
+    
+            var circle_marker_865434e560d24156a16acfc6cb3de9f5 = L.circleMarker(
+                [43.79952520000001, -79.3183887],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_73b8f66e144c4f4caa6d5245acaef606 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_028b5de284eb4ed58eefd9474ad5481b = $(`<div id="html_028b5de284eb4ed58eefd9474ad5481b" style="width: 100.0%; height: 100.0%;">L&#39;Amoreaux West,Caribbean Restaurant</div>`)[0];
+            popup_73b8f66e144c4f4caa6d5245acaef606.setContent(html_028b5de284eb4ed58eefd9474ad5481b);
+        
+
+        circle_marker_865434e560d24156a16acfc6cb3de9f5.bindPopup(popup_73b8f66e144c4f4caa6d5245acaef606)
+        ;
+
+        
+    
+    
+            var circle_marker_19c78c2f79a54349ad596655e371ebdc = L.circleMarker(
+                [43.79952520000001, -79.3183887],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_6c743e91742e421c9721b0f512fb14e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8159eae62c6c4a49ad5de736cb1b2ae8 = $(`<div id="html_8159eae62c6c4a49ad5de736cb1b2ae8" style="width: 100.0%; height: 100.0%;">L&#39;Amoreaux West,Hotpot Restaurant</div>`)[0];
+            popup_6c743e91742e421c9721b0f512fb14e5.setContent(html_8159eae62c6c4a49ad5de736cb1b2ae8);
+        
+
+        circle_marker_19c78c2f79a54349ad596655e371ebdc.bindPopup(popup_6c743e91742e421c9721b0f512fb14e5)
+        ;
+
+        
+    
+    
+            var circle_marker_dfba515135b64a90a13727ff720120dd = L.circleMarker(
+                [43.6464352, -79.37484599999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_e2ae2e508f204a87899652cb059d4248 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_733624e2c3ff46c49859054819fe0fb9 = $(`<div id="html_733624e2c3ff46c49859054819fe0fb9" style="width: 100.0%; height: 100.0%;">Stn A PO Boxes 25 The Esplanade,Vegetarian / Vegan Restaurant</div>`)[0];
+            popup_e2ae2e508f204a87899652cb059d4248.setContent(html_733624e2c3ff46c49859054819fe0fb9);
+        
+
+        circle_marker_dfba515135b64a90a13727ff720120dd.bindPopup(popup_e2ae2e508f204a87899652cb059d4248)
+        ;
+
+        
+    
+    
+            var circle_marker_8b9944e911444f7db75dc6cfe6f05d4d = L.circleMarker(
+                [43.60241370000001, -79.54348409999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_2e1ae06f635f42acb7b20b17cab462d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f3d263a633f494c87f6195dfcb24070 = $(`<div id="html_2f3d263a633f494c87f6195dfcb24070" style="width: 100.0%; height: 100.0%;">Alderwood,Long Branch,Seafood Restaurant</div>`)[0];
+            popup_2e1ae06f635f42acb7b20b17cab462d6.setContent(html_2f3d263a633f494c87f6195dfcb24070);
+        
+
+        circle_marker_8b9944e911444f7db75dc6cfe6f05d4d.bindPopup(popup_2e1ae06f635f42acb7b20b17cab462d6)
+        ;
+
+        
+    
+    
+            var circle_marker_594716b1956b428abd19c494039589ef = L.circleMarker(
+                [43.706748299999994, -79.5940544],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_a584a74de3084483afa8981f0f5fdb7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd0c2f9e668d4deaa1a72172c5c268a2 = $(`<div id="html_dd0c2f9e668d4deaa1a72172c5c268a2" style="width: 100.0%; height: 100.0%;">Northwest,Chinese Restaurant</div>`)[0];
+            popup_a584a74de3084483afa8981f0f5fdb7b.setContent(html_dd0c2f9e668d4deaa1a72172c5c268a2);
+        
+
+        circle_marker_594716b1956b428abd19c494039589ef.bindPopup(popup_a584a74de3084483afa8981f0f5fdb7b)
+        ;
+
+        
+    
+    
+            var circle_marker_4c61283024fa4a3ebf8bda913875aef7 = L.circleMarker(
+                [43.667967, -79.3676753],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_ff519c1aa64f448083b8ebf2c1fd3302 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22bb8b8bbf8e4cb280fae6a94eb1367c = $(`<div id="html_22bb8b8bbf8e4cb280fae6a94eb1367c" style="width: 100.0%; height: 100.0%;">Cabbagetown,St. James Town,Japanese Restaurant</div>`)[0];
+            popup_ff519c1aa64f448083b8ebf2c1fd3302.setContent(html_22bb8b8bbf8e4cb280fae6a94eb1367c);
+        
+
+        circle_marker_4c61283024fa4a3ebf8bda913875aef7.bindPopup(popup_ff519c1aa64f448083b8ebf2c1fd3302)
+        ;
+
+        
+    
+    
+            var circle_marker_6096edc9979b491887e01b931ee7f870 = L.circleMarker(
+                [43.667967, -79.3676753],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_b29a5552420a43e196d076dc8c535f30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6e3f69dad2b4a03a65bdb443d34537b = $(`<div id="html_b6e3f69dad2b4a03a65bdb443d34537b" style="width: 100.0%; height: 100.0%;">Cabbagetown,St. James Town,Italian Restaurant</div>`)[0];
+            popup_b29a5552420a43e196d076dc8c535f30.setContent(html_b6e3f69dad2b4a03a65bdb443d34537b);
+        
+
+        circle_marker_6096edc9979b491887e01b931ee7f870.bindPopup(popup_b29a5552420a43e196d076dc8c535f30)
+        ;
+
+        
+    
+    
+            var circle_marker_b2bb3bbab6ba41e9b2748ad0e5e72406 = L.circleMarker(
+                [43.667967, -79.3676753],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_c1226b542c424d4a892dba5ef3efa072 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_939b1ef9c923430791faa6b43ccdb5ec = $(`<div id="html_939b1ef9c923430791faa6b43ccdb5ec" style="width: 100.0%; height: 100.0%;">Cabbagetown,St. James Town,Indian Restaurant</div>`)[0];
+            popup_c1226b542c424d4a892dba5ef3efa072.setContent(html_939b1ef9c923430791faa6b43ccdb5ec);
+        
+
+        circle_marker_b2bb3bbab6ba41e9b2748ad0e5e72406.bindPopup(popup_c1226b542c424d4a892dba5ef3efa072)
+        ;
+
+        
+    
+    
+            var circle_marker_b29c2e28c6ea47a480d8884c72f7fbb4 = L.circleMarker(
+                [43.6484292, -79.3822802],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_16ec788b4b1542d1aa83ab3b8a0b13b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d2dd458ad124583a4fd6750d5afb82d = $(`<div id="html_7d2dd458ad124583a4fd6750d5afb82d" style="width: 100.0%; height: 100.0%;">First Canadian Place,Underground city,Restaurant</div>`)[0];
+            popup_16ec788b4b1542d1aa83ab3b8a0b13b6.setContent(html_7d2dd458ad124583a4fd6750d5afb82d);
+        
+
+        circle_marker_b29c2e28c6ea47a480d8884c72f7fbb4.bindPopup(popup_16ec788b4b1542d1aa83ab3b8a0b13b6)
+        ;
+
+        
+    
+    
+            var circle_marker_c9b5d3bf66324c62bef70b447970aa27 = L.circleMarker(
+                [43.6484292, -79.3822802],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_fb5cc14848294a80ae807b2a19f3ed90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ecef928d7ff4be78d132c952796887c = $(`<div id="html_4ecef928d7ff4be78d132c952796887c" style="width: 100.0%; height: 100.0%;">First Canadian Place,Underground city,American Restaurant</div>`)[0];
+            popup_fb5cc14848294a80ae807b2a19f3ed90.setContent(html_4ecef928d7ff4be78d132c952796887c);
+        
+
+        circle_marker_c9b5d3bf66324c62bef70b447970aa27.bindPopup(popup_fb5cc14848294a80ae807b2a19f3ed90)
+        ;
+
+        
+    
+    
+            var circle_marker_19b35fbe9bcd4863b57bb9f5eaee66e7 = L.circleMarker(
+                [43.65365360000001, -79.5069436],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_5b2568983a724f418b851b7df2a06709 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d54f803c2b34cbfb62de8285b9ef994 = $(`<div id="html_9d54f803c2b34cbfb62de8285b9ef994" style="width: 100.0%; height: 100.0%;">The Kingsway,Montgomery Road,Old Mill North,French Restaurant</div>`)[0];
+            popup_5b2568983a724f418b851b7df2a06709.setContent(html_9d54f803c2b34cbfb62de8285b9ef994);
+        
+
+        circle_marker_19b35fbe9bcd4863b57bb9f5eaee66e7.bindPopup(popup_5b2568983a724f418b851b7df2a06709)
+        ;
+
+        
+    
+    
+            var circle_marker_e7008a443d334cd6a9ea601a591ec035 = L.circleMarker(
+                [43.65365360000001, -79.5069436],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_edb75840f58c458d8288ee3ddc259b2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c7388d0da6048e09b65f4db1b283ced = $(`<div id="html_3c7388d0da6048e09b65f4db1b283ced" style="width: 100.0%; height: 100.0%;">The Kingsway,Montgomery Road,Old Mill North,Seafood Restaurant</div>`)[0];
+            popup_edb75840f58c458d8288ee3ddc259b2d.setContent(html_3c7388d0da6048e09b65f4db1b283ced);
+        
+
+        circle_marker_e7008a443d334cd6a9ea601a591ec035.bindPopup(popup_edb75840f58c458d8288ee3ddc259b2d)
+        ;
+
+        
+    
+    
+            var circle_marker_ca94fdc5d67544a89ea811914b701f99 = L.circleMarker(
+                [43.65365360000001, -79.5069436],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_f03b0c115cea4e958db213c2999d43cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ebbf037708f42e2867773a53a3a026f = $(`<div id="html_9ebbf037708f42e2867773a53a3a026f" style="width: 100.0%; height: 100.0%;">The Kingsway,Montgomery Road,Old Mill North,Tapas Restaurant</div>`)[0];
+            popup_f03b0c115cea4e958db213c2999d43cb.setContent(html_9ebbf037708f42e2867773a53a3a026f);
+        
+
+        circle_marker_ca94fdc5d67544a89ea811914b701f99.bindPopup(popup_f03b0c115cea4e958db213c2999d43cb)
+        ;
+
+        
+    
+    
+            var circle_marker_0bb6dfc9956a4f288328896555ceeaab = L.circleMarker(
+                [43.65365360000001, -79.5069436],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_1701b1f9e3394d05946c580a82bcae68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87ba5f4bceb849748c55022b0ba71be8 = $(`<div id="html_87ba5f4bceb849748c55022b0ba71be8" style="width: 100.0%; height: 100.0%;">The Kingsway,Montgomery Road,Old Mill North,Sushi Restaurant</div>`)[0];
+            popup_1701b1f9e3394d05946c580a82bcae68.setContent(html_87ba5f4bceb849748c55022b0ba71be8);
+        
+
+        circle_marker_0bb6dfc9956a4f288328896555ceeaab.bindPopup(popup_1701b1f9e3394d05946c580a82bcae68)
+        ;
+
+        
+    
+    
+            var circle_marker_7967d82e32a249b8ad030037a83f9b81 = L.circleMarker(
+                [43.6658599, -79.38315990000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_47e75a96b6fc42ddab6bca90b3ca2688 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c05b38d361847eeb4a802f6a55d7a67 = $(`<div id="html_5c05b38d361847eeb4a802f6a55d7a67" style="width: 100.0%; height: 100.0%;">Church and Wellesley,Theme Restaurant</div>`)[0];
+            popup_47e75a96b6fc42ddab6bca90b3ca2688.setContent(html_5c05b38d361847eeb4a802f6a55d7a67);
+        
+
+        circle_marker_7967d82e32a249b8ad030037a83f9b81.bindPopup(popup_47e75a96b6fc42ddab6bca90b3ca2688)
+        ;
+
+        
+    
+    
+            var circle_marker_182f249d1aaa4be0b8091427ea44ef26 = L.circleMarker(
+                [43.6658599, -79.38315990000002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_97adfb8b2990403a8277c1264faebeef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f80319aa17441fcaae5df65b11182a2 = $(`<div id="html_8f80319aa17441fcaae5df65b11182a2" style="width: 100.0%; height: 100.0%;">Church and Wellesley,Mexican Restaurant</div>`)[0];
+            popup_97adfb8b2990403a8277c1264faebeef.setContent(html_8f80319aa17441fcaae5df65b11182a2);
+        
+
+        circle_marker_182f249d1aaa4be0b8091427ea44ef26.bindPopup(popup_97adfb8b2990403a8277c1264faebeef)
+        ;
+
+        
+    
+    
+            var circle_marker_e0f29e7330fa4ae1b5c475197feda20d = L.circleMarker(
+                [43.6362579, -79.49850909999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_4affd85866a34d3e9d381330ab3fde9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecaf4dfc58e34f47a76b4542b2e0ba98 = $(`<div id="html_ecaf4dfc58e34f47a76b4542b2e0ba98" style="width: 100.0%; height: 100.0%;">Humber Bay,King&#39;s Mill Park,Kingsway Park South East,Mimico NE,Old Mill South,The Queensway East,Royal York South East,Sunnylea,Thai Restaurant</div>`)[0];
+            popup_4affd85866a34d3e9d381330ab3fde9a.setContent(html_ecaf4dfc58e34f47a76b4542b2e0ba98);
+        
+
+        circle_marker_e0f29e7330fa4ae1b5c475197feda20d.bindPopup(popup_4affd85866a34d3e9d381330ab3fde9a)
+        ;
+
+        
+    
+    
+            var circle_marker_9ff57aaddba041df9166f7b1b684366b = L.circleMarker(
+                [43.6362579, -79.49850909999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_e2d2d547cff94006a2ede68f2e7b3aa7);
+        
+    
+        var popup_3ed0039629084e398da4083d45ef6e0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b860a1b6cdbb43cbb8885cd52aadc3cf = $(`<div id="html_b860a1b6cdbb43cbb8885cd52aadc3cf" style="width: 100.0%; height: 100.0%;">Humber Bay,King&#39;s Mill Park,Kingsway Park South East,Mimico NE,Old Mill South,The Queensway East,Royal York South East,Sunnylea,Italian Restaurant</div>`)[0];
+            popup_3ed0039629084e398da4083d45ef6e0e.setContent(html_b860a1b6cdbb43cbb8885cd52aadc3cf);
+        
+
+        circle_marker_9ff57aaddba041df9166f7b1b684366b.bindPopup(popup_3ed0039629084e398da4083d45ef6e0e)
+        ;
+
+        
+    
+</script>
